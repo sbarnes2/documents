@@ -1,0 +1,451 @@
+Document Type	Number	Document Code	Document Name	Risk
+Code of Practice	CO-PRD1-COP-003	COP	Oak House Production Facility Code of Practice	HIGH
+Code of Practice	CO-QC-COP-001	COP	Quality Control Laboratory Code of Practice	HIGH
+Code of Practice	CO-QC-COP-002	COP	#N/A	#N/A
+Policy	CO-CA-POL-009	POL	Policy for Verification and Validation	LOW
+Policy	CO-CS-POL-012	POL	Policy for Customer Feedback and Device Vigilance	LOW
+Policy	CO-HR-POL-007	POL	Training Policy	LOW
+Policy	CO-IT-POL-022	POL	Access Control Policy	LOW
+Policy	CO-IT-POL-023	POL	Asset Management Policy	LOW
+Policy	CO-IT-POL-024	POL	Business Continuity and Disaster Recovery	LOW
+Policy	CO-IT-POL-025	POL	Code of Conduct	LOW
+Policy	CO-IT-POL-026	POL	Cryptography Policy	LOW
+Policy	CO-IT-POL-027	POL	Human Resource Security Policy	LOW
+Policy	CO-IT-POL-028	POL	Information Security Policy	LOW
+Policy	CO-IT-POL-029	POL	Information Security Roles and Responsibilities	LOW
+Policy	CO-IT-POL-030	POL	Physical Security Policy	LOW
+Policy	CO-IT-POL-031	POL	Responsible Disclosure Policy	LOW
+Policy	CO-IT-POL-032	POL	Risk Management 	LOW
+Policy	CO-IT-POL-033	POL	Third Party Management	LOW
+Policy	CO-OPS-POL-008	POL	Policy for Purchasing and Management of Suppliers	LOW
+Policy	CO-OPS-POL-011	POL	WEEE Policy	LOW
+Policy	CO-PRD1-POL-016	POL	Reagent Production Policy	LOW
+Policy	CO-QA-POL-006	POL	Policy for Document Control and Change Management	LOW
+Policy	CO-QA-POL-010	POL	Policy for Control of Infrastructure Environment and Equipment	LOW
+Policy	CO-QA-POL-013	POL	Policy for Complaints and Vigilance	LOW
+Policy	CO-QA-POL-014	POL	Poilcy for Control of Non Conformance 	LOW
+Policy	CO-QA-POL-015	POL	Policy for the use of Electronic Signatures within binx health	LOW
+Policy	CO-QA-POL-019	POL	Quality Policy	LOW
+Policy	CO-QA-POL-020	POL	Risk Management Policy	LOW
+Policy	CO-QA-POL-021	POL	Quality Manual	LOW
+Policy	CO-QC-POL-018	POL	Quality Control Policy	LOW
+Policy	CO-SUP-POL-017	POL	"Policy for Customer Interface, Order Handling, Product Storage & Distribution"	LOW
+Policy	CO-SUP-POL-034	POL	Supply Team Policy for Oak House Production Suite Operations	LOW
+Protocol	CO-DES-PTL-001	PTL	#N/A	#N/A
+Protocol	CO-DES-PTL-002	PTL	#N/A	#N/A
+Protocol	CO-DES-PTL-003	PTL	#N/A	#N/A
+Protocol	CO-DES-PTL-004	PTL	#N/A	#N/A
+Protocol	CO-DES-PTL-005	PTL	#N/A	#N/A
+Protocol	CO-DES-PTL-006	PTL	#N/A	#N/A
+Protocol	CO-DES-PTL-007	PTL	#N/A	#N/A
+Protocol	CO-DES-PTL-008	PTL	#N/A	#N/A
+Protocol	CO-LAB-PTL-045	PTL	#N/A	#N/A
+Protocol	CO-LAB-PTL-046	PTL	#N/A	#N/A
+Protocol	CO-LAB-PTL-047	PTL	#N/A	#N/A
+Protocol	CO-LAB-PTL-186	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-009	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-010	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-011	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-013	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-014	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-015	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-017	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-018	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-019	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-020	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-021	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-022	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-023	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-024	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-025	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-026	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-027	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-028	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-029	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-030	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-031	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-036	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-037	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-038	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-039	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-040	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-043	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-048	PTL	IO Release Procedure for Refurbished and Reworked Readers	HIGH
+Protocol	CO-OPS-PTL-049	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-050	PTL	#N/A	#N/A
+Protocol	CO-OPS-PTL-051	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-075	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-078	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-086	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-087	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-088	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-089	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-090	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-091	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-092	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-093	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-094	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-095	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-096	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-097	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-098	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-099	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-100	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-101	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-102	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-103	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-104	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-105	PTL	#N/A	#N/A
+Protocol	CO-PRD1-PTL-106	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-016	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-060	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-061	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-062	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-064	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-065	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-066	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-067	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-068	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-069	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-070	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-071	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-072	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-073	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-074	PTL	#N/A	#N/A
+Protocol	CO-QC-PTL-077	PTL	#N/A	#N/A
+Quality Control Protocol	CO-QC-QCP-055	QCP	CT Plasmid Quantification - qPCR Test (Part No. 0348)	LOW
+Quality Control Protocol	CO-QC-QCP-059	QCP	ct/ng Collection Kit Batch Release	HIGH
+Quality Control Protocol	CO-QC-QCP-060	QCP	CT/NG Relabelled cartridge release procedure	HIGH
+Quality Control Protocol	CO-QC-QCP-068	QCP	QCP For CTNG TaqUNG Reagent Revision 1	HIGH
+Quality Control Protocol	CO-QC-QCP-065	QCP	QCP For CTNG CT-IC Detection Reagent Revision 2	LOW
+Quality Control Protocol	CO-QC-QCP-067	QCP	QCP For CTNG CTIC Primer Passivation Reagent Revision 1	HIGH
+Quality Control Protocol	CO-QC-QCP-052	QCP	IC DNA in TE Buffer - Raw Material qPCR test	HIGH
+Quality Control Protocol	CO-QC-QCP-069	QCP	QCP For CTNG IC DNA Formulation	HIGH
+Quality Control Protocol	CO-QC-QCP-064	QCP	QCP For CTNG NG1-IC Detection Reagent Revision 2	LOW
+Quality Control Protocol	CO-QC-QCP-066	QCP	QCP For CTNG NGIC Primer Passivation Reagent Revision 1	HIGH
+Quality Control Protocol	CO-QC-QCP-063	QCP	QCP For CTNG NG2-IC Detection Reagent Revision 2	HIGH
+Quality Control Protocol	CO-QC-QCP-057	QCP	"CTNG CTIC, NG1IC and NG2IC Detection Reagents QC test"	HIGH
+Quality Control Protocol	CO-QC-QCP-061	QCP	Electrode testing	HIGH
+Quality Control Protocol	CO-QC-QCP-071	QCP	Taq-B raw material	HIGH
+Quality Control Protocol	CO-QC-QCP-058	QCP	Material Electrochemical Signal Interference test	HIGH
+Quality Control Protocol	CO-QC-QCP-054	QCP	NG1 Plasmid Quantification - qPCR Test (Part No. 0346)	LOW
+Quality Control Protocol	CO-QC-QCP-053	QCP	NG2 Plasmid Quantification - qPCR Test (Part No. 0347	LOW
+Quality Control Protocol	CO-QC-QCP-062	QCP	QC release procedure for the Io Reader	HIGH
+Quality Control Protocol	CO-QC-QCP-056	QCP	CTNG Cartridge QCP 	HIGH
+Quality Control Protocol	CO-QC-QCP-039	QCP	T7 Exonuclease	HIGH
+Quality Control Protocol	CO-QC-QCP-070	QCP	Enzymatics UNG 50U/uL QCP	HIGH
+Standard Operating Procedure	CO-CA-SOP-081	SOP	Collection of Human samples for QA purposes	LOW
+Standard Operating Procedure	CO-CS-SOP-248	SOP	Procedure for Customer Service	LOW
+Standard Operating Procedure	CO-CS-SOP-249	SOP	io Insepction using Data Collection Cartridge	LOW
+Standard Operating Procedure	CO-DES-SOP-004	SOP	Software Development Procedure	HIGH
+Standard Operating Procedure	CO-DES-SOP-005	SOP	#N/A	HIGH
+Standard Operating Procedure	CO-DES-SOP-006	SOP	#N/A	HIGH
+Standard Operating Procedure	CO-DES-SOP-029	SOP	Design and Development Procedure	HIGH
+Standard Operating Procedure	CO-DES-SOP-041	SOP	Design Review Work Instruction	LOW
+Standard Operating Procedure	CO-DES-SOP-042	SOP	Creation and maintenance of a Device Master Record	HIGH
+Standard Operating Procedure	CO-DES-SOP-243	SOP	CE Mark/Technical File Procedure	HIGH
+Standard Operating Procedure	CO-IT-SOP-044	SOP	IT Management Back Up and Support	LOW
+Standard Operating Procedure	CO-LAB-SOP-002	SOP	Agilent Bioanalyzer SOP for RNA 6000 Pico and Nano Kits	LOW
+Standard Operating Procedure	CO-LAB-SOP-003	SOP	Validation of Temperature Controlled Equipemnt	HIGH
+Standard Operating Procedure	CO-LAB-SOP-004	SOP	Use of the Bolt Mini Gel Tank for protein Electrophoresis	HIGH
+Standard Operating Procedure	CO-LAB-SOP-005	SOP	Rhychiger Heat Sealer	HIGH
+Standard Operating Procedure	CO-LAB-SOP-006	SOP	Esco Laminar Flow Cabinet	LOW
+Standard Operating Procedure	CO-LAB-SOP-010	SOP	Reagent Deposition and Immobilisation (Pilot Line)	LOW
+Standard Operating Procedure	CO-LAB-SOP-011	SOP	Eppendorf 5424 Centrifuge	LOW
+Standard Operating Procedure	CO-LAB-SOP-012	SOP	Binder KBF-115 Oven	LOW
+Standard Operating Procedure	CO-LAB-SOP-013	SOP	Balance calibration	HIGH
+Standard Operating Procedure	CO-LAB-SOP-014	SOP	Thermo Orion Star pH meter	LOW
+Standard Operating Procedure	CO-LAB-SOP-015	SOP	Use of the ALC PK121 centrifuges (refrigerated and non-refrigrated)	LOW
+Standard Operating Procedure	CO-LAB-SOP-016	SOP	Use of the Peqlab thermal cyclers	HIGH
+Standard Operating Procedure	CO-LAB-SOP-017	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-019	SOP	LMS Programmable Incubator	LOW
+Standard Operating Procedure	CO-LAB-SOP-020	SOP	Use of the Hulme Martin Impulse Sealer in DNA free	LOW
+Standard Operating Procedure	CO-LAB-SOP-022	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-078	SOP	Preparation of Bacterial Stocks	HIGH
+Standard Operating Procedure	CO-LAB-SOP-079	SOP	Use and cleaning of the ClassII Microbiology Safety Cabinet	LOW
+Standard Operating Procedure	CO-LAB-SOP-080	SOP	Agilent Bioanalyzer SOP	HIGH
+Standard Operating Procedure	CO-LAB-SOP-082	SOP	Use of Rotary Vane Anemometer	HIGH
+Standard Operating Procedure	CO-LAB-SOP-095	SOP	External and repair Cleaning for io readers used at Atlas	LOW
+Standard Operating Procedure	CO-LAB-SOP-097	SOP	Temperature monitoring SOP	HIGH
+Standard Operating Procedure	CO-LAB-SOP-102	SOP	Use of the Grant XB2 Ultrasonic Bath	LOW
+Standard Operating Procedure	CO-LAB-SOP-103	SOP	Environmental Control in the Laboratory	HIGH
+Standard Operating Procedure	CO-LAB-SOP-108	SOP	Laboratory cleaning SOP	HIGH
+Standard Operating Procedure	CO-LAB-SOP-129	SOP	Operation of the Prior Autoclave	HIGH
+Standard Operating Procedure	CO-LAB-SOP-130	SOP	Heat Detection Rig Work Instructions	HIGH
+Standard Operating Procedure	CO-LAB-SOP-131	SOP	Pipette Use and Calibration	HIGH
+Standard Operating Procedure	CO-LAB-SOP-135	SOP	Use and Completion of MFG documents	HIGH
+Standard Operating Procedure	CO-LAB-SOP-136	SOP	Solution preparation SOP	HIGH
+Standard Operating Procedure	CO-LAB-SOP-137	SOP	Monitoring Variable Temperature Apparatus	LOW
+Standard Operating Procedure	CO-LAB-SOP-138	SOP	Use of temperature and humidity loggers	LOW
+Standard Operating Procedure	CO-LAB-SOP-145	SOP	Storage and Safe handling of Biohazardous Materials	HIGH
+Standard Operating Procedure	CO-LAB-SOP-148	SOP	Reagent Aliquot SOP	HIGH
+Standard Operating Procedure	CO-LAB-SOP-149	SOP	Introducing New Laboratory Equipment	HIGH
+Standard Operating Procedure	CO-LAB-SOP-150	SOP	-80 Freezer Temperature Monitoring	HIGH
+Standard Operating Procedure	CO-LAB-SOP-151	SOP	Management and Control of Critical and Controlled equipment	HIGH
+Standard Operating Procedure	CO-LAB-SOP-152	SOP	Reporting & Recording Instrument Failures 	HIGH
+Standard Operating Procedure	CO-LAB-SOP-153	SOP	Use of UV cabinets	LOW
+Standard Operating Procedure	CO-LAB-SOP-155	SOP	Lab book write up	HIGH
+Standard Operating Procedure	CO-LAB-SOP-156	SOP	Lab rough notes	HIGH
+Standard Operating Procedure	CO-LAB-SOP-158	SOP	Use of NanoDrop SP2000 Spectrophotometer for quantifying nucleic acid and protein samples	HIGH
+Standard Operating Procedure	CO-LAB-SOP-159	SOP	Use of the Rotorgene Q	HIGH
+Standard Operating Procedure	CO-LAB-SOP-160	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-161	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-163	SOP	Running End to End CT cartridges on io Readers	LOW
+Standard Operating Procedure	CO-LAB-SOP-164	SOP	Operation and Maintenance of HT24-2P Bambi Compressor and DSIS Sealer	HIGH
+Standard Operating Procedure	CO-LAB-SOP-167	SOP	Attaching Electrode/Blister Adhesive and Blister Pack	LOW
+Standard Operating Procedure	CO-LAB-SOP-168	SOP	Janway 3510 model pH Meter	LOW
+Standard Operating Procedure	CO-LAB-SOP-169	SOP	Fermant Pouch Sealer (Pilot Line)	LOW
+Standard Operating Procedure	CO-LAB-SOP-170	SOP	Rapid PCR Rig Work Instructions	HIGH
+Standard Operating Procedure	CO-LAB-SOP-175	SOP	Out of Hours Temperature Monitoring 	LOW
+Standard Operating Procedure	CO-LAB-SOP-176	SOP	SOP to provide guidance for IQC's	HIGH
+Standard Operating Procedure	CO-LAB-SOP-177	SOP	QuantStudio 3D digital PCR System	HIGH
+Standard Operating Procedure	CO-LAB-SOP-178	SOP	Signal Analyser	HIGH
+Standard Operating Procedure	CO-LAB-SOP-179	SOP	Cleaning Procedure for Microbiolgy lab	HIGH
+Standard Operating Procedure	CO-LAB-SOP-180	SOP	Reconstituton of Lyophilised Materials	LOW
+Standard Operating Procedure	CO-LAB-SOP-181	SOP	Use of the Thermomixer HC Block	LOW
+Standard Operating Procedure	CO-LAB-SOP-182	SOP	Limited Laboratory Access Procedure	HIGH
+Standard Operating Procedure	CO-LAB-SOP-183	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-184	SOP	Pilot Line Blister Filling and Sealing Procedure	HIGH
+Standard Operating Procedure	CO-LAB-SOP-194	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-199	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-225	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-239	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-241	SOP	Ordering of New Reagents and Chemicals	HIGH
+Standard Operating Procedure	CO-LAB-SOP-287	SOP	Introduction of New microorganisms SOP	HIGH
+Standard Operating Procedure	CO-LAB-SOP-288	SOP	Assessment of Potentiostat Performance	LOW
+Standard Operating Procedure	CO-LAB-SOP-289	SOP	Details of Standard Assays for use with CT-NG Project	LOW
+Standard Operating Procedure	CO-LAB-SOP-290	SOP	Running Clinical Samples in io Readers	HIGH
+Standard Operating Procedure	CO-LAB-SOP-291	SOP	Preparation of 10X and 1X TAE	LOW
+Standard Operating Procedure	CO-LAB-SOP-292	SOP	Preparation of TSB and TSA	LOW
+Standard Operating Procedure	CO-LAB-SOP-294	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-295	SOP	Environmental Contamination Monitoring	HIGH
+Standard Operating Procedure	CO-LAB-SOP-296	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-LAB-SOP-300	SOP	Preparation of Sub-circuit cards for voltammetric detection	HIGH
+Standard Operating Procedure	CO-LAB-SOP-301	SOP	Preparation of BHI Broth 	LOW
+Standard Operating Procedure	CO-LAB-SOP-302	SOP	Preparation and use of agarose gels	LOW
+Standard Operating Procedure	CO-OPS-SOP-002	SOP	Planning for Process Validation	HIGH
+Standard Operating Procedure	CO-OPS-SOP-007	SOP	Firmware Up-date	HIGH
+Standard Operating Procedure	CO-OPS-SOP-008	SOP	Thermal Test Rig Set Up and Calibration	LOW
+Standard Operating Procedure	CO-OPS-SOP-009	SOP	Reader Peltier Refit procedure	HIGH
+Standard Operating Procedure	CO-OPS-SOP-032	SOP	Validation of Automated Equipment and Quality System Software	HIGH
+Standard Operating Procedure	CO-OPS-SOP-033	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-034	SOP	Test Method Validation	HIGH
+Standard Operating Procedure	CO-OPS-SOP-035	SOP	Engineering Drawing Control	LOW
+Standard Operating Procedure	CO-OPS-SOP-036	SOP	Instrument Engineering Change Management	LOW
+Standard Operating Procedure	CO-OPS-SOP-083	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-084	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-085	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-086	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-087	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-088	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-089	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-090	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-091	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-092	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-104	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-105	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-107	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-109	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-110	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-111	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-112	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-113	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-114	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-115	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-116	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-117	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-118	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-119	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-120	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-121	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-122	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-123	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-124	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-125	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-126	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-127	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-128	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-132	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-133	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-134	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-142	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-165	SOP	Windows Software Up-date	HIGH
+Standard Operating Procedure	CO-OPS-SOP-166	SOP	Pneumatics Test Rig Set Up and Calibration	HIGH
+Standard Operating Procedure	CO-OPS-SOP-172	SOP	Tool Changes of the Rhychiger Heat Sealer 	HIGH
+Standard Operating Procedure	CO-OPS-SOP-174	SOP	Engineering Rework Procedure 	HIGH
+Standard Operating Procedure	CO-OPS-SOP-186	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-187	SOP	Force Test Rig Set Up and Calibration	HIGH
+Standard Operating Procedure	CO-OPS-SOP-188	SOP	Process Validation	HIGH
+Standard Operating Procedure	CO-OPS-SOP-189	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-190	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-191	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-192	SOP	Verification Testing Process SOP	HIGH
+Standard Operating Procedure	CO-OPS-SOP-193	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-195	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-196	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-197	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-198	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-200	SOP	Chlamydia trachomatis and Neisseria gonorrhoeae positive daily controls	#N/A
+Standard Operating Procedure	CO-OPS-SOP-201	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-202	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-203	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-204	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-205	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-206	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-207	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-208	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-209	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-210	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-211	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-212	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-213	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-214	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-215	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-216	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-217	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-218	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-219	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-220	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-221	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-222	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-223	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-224	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-226	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-227	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-228	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-229	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-OPS-SOP-230	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-PRD1-SOP-252	SOP	Use of Benchmark Roto-Therm Plus Hybridisation oven	LOW
+Standard Operating Procedure	CO-PRD1-SOP-254	SOP	Use & Cleaning of the Monmouth Scientific Model Guardian 1800 Production Enclosure in Oak House	LOW
+Standard Operating Procedure	CO-PRD1-SOP-255	SOP	Mini Fuge Plus centrifuge SOP	LOW
+Standard Operating Procedure	CO-PRD1-SOP-256	SOP	Velp Scientific WIZARD IR Infared Vortex Mixer SOP	LOW
+Standard Operating Procedure	CO-PRD1-SOP-257	SOP	Standard Use of Oak House Freezers	LOW
+Standard Operating Procedure	CO-PRD1-SOP-258	SOP	Use of Oak House N2400-3010 Magnetic Stirrer	LOW
+Standard Operating Procedure	CO-PRD1-SOP-259	SOP	Standard Use of Oak House Fridges	LOW
+Standard Operating Procedure	CO-PRD1-SOP-260	SOP	Use of Logmore dataloggers	LOW
+Standard Operating Procedure	CO-PRD1-SOP-261	SOP	Cleaning Procedure for Oak House Production Facility	HIGH
+Standard Operating Procedure	CO-PRD1-SOP-263	SOP	Entry and Exit to the Oak House Production Facility and Production Suite	HIGH
+Standard Operating Procedure	CO-PRD1-SOP-264	SOP	Eupry temperarure monitoring system	HIGH
+Standard Operating Procedure	CO-PRD1-SOP-265	SOP	Oak House Emergency Procedures	HIGH
+Standard Operating Procedure	CO-PRD1-SOP-268	SOP	Transfer of reagent QC samples	LOW
+Standard Operating Procedure	CO-PRD1-SOP-269	SOP	Oak House Pipette Use and Calibration SOP	LOW
+Standard Operating Procedure	CO-PRD1-SOP-271	SOP	Use of the Pacplus Impulse Heat Sealer	LOW
+Standard Operating Procedure	CO-PRD1-SOP-276	SOP	Label Printing	LOW
+Standard Operating Procedure	CO-PRD1-SOP-303	SOP	Oak House Out of Hours Procedures	LOW
+Standard Operating Procedure	CO-PRD1-SOP-304	SOP	Management of Critical and Controlled Equipment at Oak House Production Facility	HIGH
+Standard Operating Procedure	CO-PRD1-SOP-305	SOP	Use of ME2002T/00 and ML104T/00 balances in the Oak House Production Facility	LOW
+Standard Operating Procedure	CO-PRD1-SOP-306	SOP	Manufacturing Overview for the binx Cartridge Reagent Manufacturing Facility	HIGH
+Standard Operating Procedure	CO-PRD1-SOP-308	SOP	Use of IKA Digital Roller Mixer	LOW
+Standard Operating Procedure	CO-PRD1-SOP-309	SOP	Use of Uninterruptible Power Supply	LOW
+Standard Operating Procedure	CO-PRD1-SOP-310	SOP	Use of calibrated timers	LOW
+Standard Operating Procedure	CO-PRD1-SOP-311	SOP	Use of the Rotary Vane Anemometer in Oak House	LOW
+Standard Operating Procedure	CO-PRD1-SOP-312	SOP	Guidance for the completion of Reagent Production Manufacturing Batch Records (MBRs)	HIGH
+Standard Operating Procedure	CO-PRD1-SOP-313	SOP	Use of Membrane Filters in the binx Reagent Manufacturing Facility 	LOW
+Standard Operating Procedure	CO-PRD1-SOP-318	SOP	The use of the calibrated air temperature probe	LOW
+Standard Operating Procedure	CO-PRD1-SOP-319	SOP	Jenway 3510 model pH Meter with ATC probe and 924 30 6.0mm model Tris electrode SOP in Oak House	LOW
+Standard Operating Procedure	CO-PRD1-SOP-355	SOP	Manufacturing Overview for CT/IC Detection reagent	HIGH
+Standard Operating Procedure	CO-QA-SOP-003	SOP	Non Conformance Procedure	HIGH
+Standard Operating Procedure	CO-QA-SOP-004	SOP	Internal Audit	LOW
+Standard Operating Procedure	CO-QA-SOP-005	SOP	Document and Records Archiving	LOW
+Standard Operating Procedure	CO-QA-SOP-007	SOP	"Correction, Removal and Recall Procedure"	HIGH
+Standard Operating Procedure	CO-QA-SOP-011	SOP	Supplier Corrective Action Response Procedure	LOW
+Standard Operating Procedure	CO-QA-SOP-012	SOP	Annual Quality Objectives 	LOW
+Standard Operating Procedure	CO-QA-SOP-014	SOP	Quality Planning Procedure	LOW
+Standard Operating Procedure	CO-QA-SOP-015	SOP	Competence of Atlas Auditors	LOW
+Standard Operating Procedure	CO-QA-SOP-016	SOP	Identification and Traceability	LOW
+Standard Operating Procedure	CO-QA-SOP-024	SOP	Sharepoint Administration	LOW
+Standard Operating Procedure	CO-QA-SOP-025	SOP	Management Review	LOW
+Standard Operating Procedure	CO-QA-SOP-026	SOP	Use of Sharepoint	LOW
+Standard Operating Procedure	CO-QA-SOP-028	SOP	Quality Records	HIGH
+Standard Operating Procedure	CO-QA-SOP-030	SOP	Accessing and Finding Documents in QT9	LOW
+Standard Operating Procedure	CO-QA-SOP-031	SOP	Revising and Introducing Documents in QT9	HIGH
+Standard Operating Procedure	CO-QA-SOP-043	SOP	Training Procedure	HIGH
+Standard Operating Procedure	CO-QA-SOP-076	SOP	Product Complaint Handling	HIGH
+Standard Operating Procedure	CO-QA-SOP-077	SOP	Supplier Audit Procedure	LOW
+Standard Operating Procedure	CO-QA-SOP-093	SOP	CAPA Procedure	HIGH
+Standard Operating Procedure	CO-QA-SOP-096	SOP	Monitoring and Reporting of Quality Data	LOW
+Standard Operating Procedure	CO-QA-SOP-098	SOP	Document Matrix	LOW
+Standard Operating Procedure	CO-QA-SOP-099	SOP	Deviation procedure	HIGH
+Standard Operating Procedure	CO-QA-SOP-139	SOP	Change Management	HIGH
+Standard Operating Procedure	CO-QA-SOP-140	SOP	Document Control & Control of Quality Records	LOW
+Standard Operating Procedure	CO-QA-SOP-147	SOP	Managing an External Regulatory Visit	LOW
+Standard Operating Procedure	CO-QA-SOP-237	SOP	QT9 - Periodic Review and Making Documents Obsolete	LOW
+Standard Operating Procedure	CO-QA-SOP-244	SOP	QT9 Administration	LOW
+Standard Operating Procedure	CO-QA-SOP-267	SOP	Post Market Surveillance	LOW
+Standard Operating Procedure	CO-QA-SOP-274	SOP	Applicable Standards Management Procedure	LOW
+Standard Operating Procedure	CO-QA-SOP-283	SOP	Product Risk Management 	HIGH
+Standard Operating Procedure	CO-QA-SOP-284	SOP	FMEA Procedure	HIGH
+Standard Operating Procedure	CO-QA-SOP-285	SOP	Hazard Analysis Procedure	HIGH
+Standard Operating Procedure	CO-QA-SOP-326	SOP	Vigilance and Medical Reporting Procedure	HIGH
+Standard Operating Procedure	CO-QA-SOP-345	SOP	Tools for Root Cause Analysis	LOW
+Standard Operating Procedure	CO-QA-SOP-356	SOP	EU Regulatory Strategy and Process	LOW
+Standard Operating Procedure	CO-QA-SOP-357	SOP	EU Performance Evaluation	LOW
+Standard Operating Procedure	CO-QC-SOP-012	SOP	Quality Control Out of Specification Results Procedure	HIGH
+Standard Operating Procedure	CO-QC-SOP-021	SOP	Use of Stuart SRT6D Roller Mixer	LOW
+Standard Operating Procedure	CO-QC-SOP-094	SOP	Procedure to control chemical and biological spillages	HIGH
+Standard Operating Procedure	CO-QC-SOP-154	SOP	QC Laboratory Cleaning SOP	HIGH
+Standard Operating Procedure	CO-QC-SOP-171	SOP	Quality Control Rounding procedure	LOW
+Standard Operating Procedure	CO-QC-SOP-173	SOP	Laboratory Investigation Procedure	HIGH
+Standard Operating Procedure	CO-QC-SOP-185	SOP	Use of the SB3 Rotator	LOW
+Standard Operating Procedure	CO-QC-SOP-282	SOP	QC Sample Handling and Retention Procedure	HIGH
+Standard Operating Procedure	CO-QC-SOP-286	SOP	Procedure for io Release	HIGH
+Standard Operating Procedure	CO-QC-SOP-293	SOP	dPCR quantification of CT & NG Vircell inputs	HIGH
+Standard Operating Procedure	CO-QC-SOP-299	SOP	#N/A	#N/A
+Standard Operating Procedure	CO-SAM-SOP-009	SOP	Control of Marketing and Promotion	LOW
+Standard Operating Procedure	CO-SUP-SOP-001	SOP	Procedure for Commercial Storage and Distribution	LOW
+Standard Operating Procedure	CO-SUP-SOP-002	SOP	Intrument service and repair	HIGH
+Standard Operating Procedure	CO-SUP-SOP-003	SOP	Procudure for inventory control and IBP 	LOW
+Standard Operating Procedure	CO-SUP-SOP-005	SOP	New customer procedure	LOW
+Standard Operating Procedure	CO-SUP-SOP-006	SOP	Equipment and fulfilment and field visits	LOW
+Standard Operating Procedure	CO-SUP-SOP-007	SOP	Procedure for Sales Administration& Order Handling	LOW
+Standard Operating Procedure	CO-SUP-SOP-013	SOP	Customer Returns	LOW
+Standard Operating Procedure	CO-SUP-SOP-025	SOP	quality Control	LOW
+Standard Operating Procedure	CO-SUP-SOP-037	SOP	Complete QC Inspections	LOW
+Standard Operating Procedure	CO-SUP-SOP-038	SOP	Change of Stock (QC release)	LOW
+Standard Operating Procedure	CO-SUP-SOP-039	SOP	Manage Quality Codes	LOW
+Standard Operating Procedure	CO-SUP-SOP-040	SOP	New Customer Set-Up	LOW
+Standard Operating Procedure	CO-SUP-SOP-041	SOP	Customer Sales Contracts	LOW
+Standard Operating Procedure	CO-SUP-SOP-042	SOP	Enter & Release Sales Orders	LOW
+Standard Operating Procedure	CO-SUP-SOP-043	SOP	Mark Sales Orders as Despatched	LOW
+Standard Operating Procedure	CO-SUP-SOP-044	SOP	Invoice Customers Manually	LOW
+Standard Operating Procedure	CO-SUP-SOP-045	SOP	Cutomer Price Lists	LOW
+Standard Operating Procedure	CO-SUP-SOP-046	SOP	Create New Customer Return	LOW
+Standard Operating Procedure	CO-SUP-SOP-047	SOP	Transfer Order	LOW
+Standard Operating Procedure	CO-SUP-SOP-048	SOP	Raise PO Non Stock and Services	LOW
+Standard Operating Procedure	CO-SUP-SOP-049	SOP	Receive non sock PO 	LOW
+Standard Operating Procedure	CO-SUP-SOP-050	SOP	Raise PO - Stock Item	LOW
+Standard Operating Procedure	CO-SUP-SOP-051	SOP	Receive Stock Purchase Orders	LOW
+Standard Operating Procedure	CO-SUP-SOP-052	SOP	New Supplier Set-Up	LOW
+Standard Operating Procedure	CO-SUP-SOP-053	SOP	Raise and Release PO	LOW
+Standard Operating Procedure	CO-SUP-SOP-054	SOP	Complete PO	LOW
+Standard Operating Procedure	CO-SUP-SOP-055	SOP	Goods Movement 	LOW
+Standard Operating Procedure	CO-SUP-SOP-056	SOP	Check Sales Order due Date	LOW
+Standard Operating Procedure	CO-SUP-SOP-057	SOP	Consume to cost centre or Project 	LOW
+Standard Operating Procedure	CO-SUP-SOP-058	SOP	Inspection Plans	LOW
+Standard Operating Procedure	CO-SUP-SOP-059	SOP	Credit Customer Returns	LOW
+Standard Operating Procedure	CO-SUP-SOP-060	SOP	Customer Returns	LOW
+Standard Operating Procedure	CO-SUP-SOP-061	SOP	New Project Set-Up	LOW
+Standard Operating Procedure	CO-SUP-SOP-062	SOP	Add Team Member to a Task	LOW
+Standard Operating Procedure	CO-SUP-SOP-063	SOP	Book Time Against A Project	LOW
+Standard Operating Procedure	CO-SUP-SOP-064	SOP	Create a PO Within a Project	LOW
+Standard Operating Procedure	CO-SUP-SOP-065	SOP	Complete a timesheet	LOW
+Standard Operating Procedure	CO-SUP-SOP-066	SOP	Manager Approvals App	LOW
+Standard Operating Procedure	CO-SUP-SOP-067	SOP	Managing Expired Identified Stock	LOW
+Standard Operating Procedure	CO-SUP-SOP-068	SOP	Purchasing SOP	HIGH
+Standard Operating Procedure	CO-SUP-SOP-069	SOP	Supplier Evaluation SOP	HIGH
+Standard Operating Procedure	CO-SUP-SOP-070	SOP	"Supplier Risk Assessment, Approval and Monitoring Procedure"	HIGH
+Standard Operating Procedure	CO-SUP-SOP-072	SOP	"Instructions for receipt of incoming Non-Stock goods, assigning GRN numbers and labelling"	HIGH
+Standard Operating Procedure	CO-SUP-SOP-073	SOP	Standard Cost Roll Up	LOW
+Standard Operating Procedure	CO-SUP-SOP-074	SOP	UK Stock Procurement & Movements (Supply Chain)	LOW
+Standard Operating Procedure	CO-SUP-SOP-075	SOP	Order to Cash	LOW
+Standard Operating Procedure	CO-SUP-SOP-231	SOP	New Items	LOW
+Standard Operating Procedure	CO-SUP-SOP-277	SOP	"Instructions for receipt of incoming Non-Stock goods, assigning GRN numbers and labelling"	HIGH
+Standard Operating Procedure	CO-SUP-SOP-278	SOP	Pilot Line Electronic Stock Control	LOW
+Standard Operating Procedure	CO-SUP-SOP-279	SOP	Stock take procedure	LOW
+Standard Operating Procedure	CO-SUP-SOP-280	SOP	Setting Expiry Dates for Incoming Materials	HIGH
+Standard Operating Procedure	CO-SUP-SOP-281	SOP	Cartridge Component Stock Control Procedure	LOW
+Standard Operating Procedure	CO-SUP-SOP-320	SOP	Oak House Supply Chain Reagent Production Process	HIGH
+Standard Operating Procedure	CO-SUP-SOP-321	SOP	Incoming Goods Procedure for deliveries into Oak House Manufacturing Site	HIGH
+Standard Operating Procedure	CO-SUP-SOP-322	SOP	Supply Team Oak House Operations	HIGH
+Standard Operating Procedure	CO-SUP-SOP-323	SOP	Demand Planning	LOW
+Standard Operating Procedure	CO-SUP-SOP-324	SOP	Packaging and Shipping procedure for binx Cartridge Reagent	HIGH

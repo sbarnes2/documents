@@ -13,7 +13,7 @@
 /out/
 
 # production
-/build
+/dist
 
 # misc
 .DS_Store
@@ -26,7 +26,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
-
+.cache
 # vercel
 .vercel
 

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "noImplicitAny": true,
+        "allowJs": true,
+        "target": "ES5",
+        "strict": true,
+        "module": "ES6",
+        "moduleResolution": "node",
+        "outDir": "../../../dist/public/js",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true
+    }
+}
