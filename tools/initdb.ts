@@ -13,6 +13,7 @@ const init =async () => {
 
     try{
         console.log(`connecting client using password = ${process.env.PGPASSWORD}`);
+        
         await client.connect();
 
         //read in the sql file used to initialise the db

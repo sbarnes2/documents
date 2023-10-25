@@ -1602,7 +1602,7 @@ END as training_complete,
 clock_timestamp()
 from userstate us
 inner join users u ON lower(u.username) = lower(us.employee_name)
-inner join document_list dl on dl.documentqtid = us.qt9_document_code 
+inner join document_list dl on dl.documentqtid = us.qt9_document_code; 
 
 DROP TABLE IF EXISTS orgchart;
 
@@ -1610,7 +1610,7 @@ CREATE TABLE IF NOT EXISTS orgchart(
 	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 	user_id int,
 	manager_id int
-)
+);
 
 
 CREATE OR REPLACE VIEW public.managers AS
