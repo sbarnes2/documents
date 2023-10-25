@@ -1627,3 +1627,38 @@ CREATE OR REPLACE VIEW public.managers AS
 insert into orgchart (manager_id,user_id)
 select m.id as manager_id,r.id as employee_id from managers m
 inner join relationship r on r.manager_email = m.email_address;
+
+DROP TABLE IF EXISTS public.current_state_documents CASCADE;
+
+BEGIN;
+
+CREATE TABLE IF NOT EXISTS public.current_state_documents (
+	id integer NOT NULL GEnerated Always as identity,
+	documentcode character varying(30) NOT NULL,
+	documentname character varying(150),
+	rev character varying(30) NOT NULL,
+	department character varying(50),
+	doctype character varying(50),
+	doccategory character varying(50),
+	sitename character varying(30),
+	docreference character varying(50),
+	status character varying(30),
+	PRIMARY KEY(id)
+);
+COMMIT;
+
+
+
+CREATE OR REPLACE VIEW public.user_training_needed AS
+ SELECT DISTINCT ts.userid,
+    u.username,
+    u.email_address,
+    dl.documentqtid,
+    ts.usercurrentrevision,
+    csd.rev
+   FROM (((training_status ts
+     JOIN document_list dl ON ((dl.id = ts.documentid)))
+     JOIN current_state_documents csd ON (((csd.documentcode)::text = (dl.documentqtid)::text)))
+     JOIN users u ON ((u.id = ts.userid)))
+  WHERE ((ts.usercurrentrevision)::text < (csd.rev)::text)
+  ORDER BY ts.userid, dl.documentqtid;
