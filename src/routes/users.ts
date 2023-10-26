@@ -25,9 +25,13 @@ export const register = (app: express.Application) =>{
             return res.json(users);
     });
 
+    app.get('/api/users/user/:userid',async (req:any, res)=>{
+            const user = await db.any(`select * from users where id=${req.params.userid};`,);
+            return res.json(user);
+    });
+
     app.get('/api/users/getmanagers',async (req:express.Request,res)=>{
-        const managers = await db.any('select id,username from users ');
-        return res.json(managers);
+        return res.json({string:'no data'});
     });
 
     app.get('/api/users/getmanagersreports/:managerid',async (req:express.Request,res) => {

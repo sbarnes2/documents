@@ -74,7 +74,7 @@ export const register = (app: express.Application) =>{
     })
 
     app.get('/api/documents/getdocumentsbyuserid/:userid',async (req:any,res) =>{
-                    const query:string = `select u.id,u.username,d.id,d.documentnumber,ts.training_complete_date from training_status ts inner join documents d on ts.documentid = d.id inner join users u on ts.userid = u.id where  u.id = ${req.params.userid}`;
+                    const query:string = `select u.id as userid,u.username,d.id,d.documentnumber,ts.usercurrentrevision as documentversion,ts.training_complete_date from training_status ts inner join documents d on ts.documentid = d.id inner join users u on ts.userid = u.id where  u.id = ${req.params.userid};`;
 
                     // tslint:disable-next-line:no-console
                     console.log(query);

@@ -19,10 +19,10 @@ export const register = (app : express.Application) =>{
     });
 
     // documents
-    app.get( "/documents", ( req: any, res ) => {
-        const user = usercontext;
-        res.render( "documents",{isAuthenticated:true,user} );
-    } );
+    // app.get( "/documents", ( req: any, res ) => {
+    //     const user = usercontext;
+    //     res.render( "documents",{isAuthenticated:true,user} );
+    // } );
 
     api.register(app);
     users.register(app);
