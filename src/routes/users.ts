@@ -31,7 +31,8 @@ export const register = (app: express.Application) =>{
     });
 
     app.get('/api/users/getmanagers',async (req:express.Request,res)=>{
-        return res.json({string:'no data'});
+        const result = await db.any(`select distinct u.* from users u inner join orgchart o on o.manager_id = u.id order by id;`);
+        return res.json(result);
     });
 
     app.get('/api/users/getmanagersreports/:managerid',async (req:express.Request,res) => {
