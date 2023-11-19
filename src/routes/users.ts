@@ -35,16 +35,16 @@ inner join job_titles jt on jt.id = uj.job_title_id
 where o.manager_id = 21
 */
 
-    app.get('/api/users/getmanageruserdetails/:managerid',async (req:any,res)=>{
-        let sql = 'select u.id,u.username,u.email_address,jt.name AS job_title from users u ';
-        sql = sql + 'inner join orgchart o on o.user_id = u.id ';
-        sql = sql + 'inner join user_jobtitle uj ON uj.user_id = o.user_id ';
-        sql = sql + 'inner join job_titles jt on jt.id = uj.job_title_id ';
-        sql = sql + 'where o.manager_id ='+req.params.managerid;
+app.get('/api/users/getmanageruserdetails/:managerid',async (req:any,res)=>{
+    let sql = 'select u.id,u.username,u.email_address,jt.name AS job_title from users u ';
+    sql = sql + 'inner join orgchart o on o.user_id = u.id ';
+    sql = sql + 'inner join user_jobtitle uj ON uj.user_id = o.user_id ';
+    sql = sql + 'inner join job_titles jt on jt.id = uj.job_title_id ';
+    sql = sql + 'where o.manager_id ='+req.params.managerid;
 
-        const user = await db.any(sql,);
-        return res.json(user);
-    });
+    const user = await db.any(sql,);
+    return res.json(user);
+});
 
 /*
 --Get TEAM MEMBERS BASED ON TEAM ID
@@ -59,7 +59,7 @@ order by tm.user_is_manager DESC ,u.id
 */
 
 app.get('/api/users/getteammembers/:teamid',async (req:any,res)=>{
-    let sql = 'Select t.name,u.id as userid,u.username,jt.name,tm.user_is_manager as manager from users u ';
+    let sql = 'Select t.name as teamname,u.id as userid,u.username,jt.name as jobtitle,tm.user_is_manager as manager from users u ';
     sql = sql + 'inner join team_members tm on tm.user_id = u.id ';
     sql = sql + 'inner join teams t on t.id = tm.team_id ';
     sql = sql + 'inner join user_jobtitle uj ON uj.user_id = u.id ';
@@ -67,8 +67,14 @@ app.get('/api/users/getteammembers/:teamid',async (req:any,res)=>{
     sql = sql + `where t.id = ${req.params.teamid} `;
     sql = sql + 'order by tm.user_is_manager DESC ,u.id'
 
-    const user = await db.any(sql,);
-    return res.json(user);
+    try{
+        const user = await db.any(sql,);
+        return res.json(user);
+    }
+    catch(e)
+    {
+        res.json(e).status(400);
+    }
 });
 
 /*GET ALL DOCUMENTS FOR A USER INCLUDE TRAINING LEVEL
@@ -128,6 +134,31 @@ app.get('/api/users/getjobdocuments/:jobid',async (req:any,res)=>{
             const user = await db.any(`select * from users where id=${req.params.userid};`,);
             return res.json(user);
     });
+/*
+    select distinct u.*,t.name,t.id,jt.name
+    from users u
+    inner join orgchart o on o.manager_id = u.id
+    left join team_members tm on tm.user_id = u.id
+    left join teams t on t.id = tm.team_id
+    left join user_jobtitle ut on ut.user_id = u.id
+    left join job_titles jt on jt.id = ut.job_title_id
+    order by u.surname; */
+
+    app.get('/api/users/getmanagerlist',async (req:Request,res:any) => {
+        let sql= 'select distinct u.*,t.name as teamname,t.id as teamid,jt.name as jobtitle from users u';
+        sql = sql + ' inner join orgchart o on o.manager_id = u.id';
+        sql = sql + ' left join team_members tm on tm.user_id = u.id';
+        sql = sql + ' left join teams t on t.id = tm.team_id';
+        sql = sql + ' left join user_jobtitle ut on ut.user_id = u.id';
+        sql = sql + ' left join job_titles jt on jt.id = ut.job_title_id';
+        sql = sql + ' order by u.surname;';
+        try{
+                const result = await db.query(sql,);
+                return res.json(result);
+        } catch(e){
+                res.json(e).status(400);
+        }
+    });
 
     app.get('/api/users/getmanagers',async (req:express.Request,res)=>{
         const result = await db.any(`select distinct u.* from users u inner join orgchart o on o.manager_id = u.id order by u.surname;`);
@@ -146,10 +177,7 @@ app.get('/api/users/getjobdocuments/:jobid',async (req:any,res)=>{
     });
 
 
-    app.post('/api/users/addusertomanager',async (req:TypedRequestBody<{managerid:number,userid:number}>,res)=>{
-        const success = await db.query(`insert into orgchart(manager_id,user_id) values(${req.body.managerid},${req.body.userid} returning id)`);
-        return res.status(200).json(success);
-    });
+
 
 // POST
 
@@ -246,10 +274,6 @@ app.get('/api/users/getjobdocuments/:jobid',async (req:any,res)=>{
         }
     });
 
-    app.post('/api/users/deleteuserfrommanager',async (req:TypedRequestBody<{managerid:number,userid:number}>,res) => {
-        const success = await db.query(`delete from orgchart where manager_id = ${req.body.managerid} and user_id = ${req.body.userid}`);
-        return res.status(200);
-    });
 
     app.post('/api/users/updateuserdocument',async (req:TypedRequestBody<{userid:string,documentid:string,newrevision:string}>,res) => {
         // fill in query here + add all required fields to the body, new rev number, documentid (not qt9 id)
@@ -258,7 +282,7 @@ app.get('/api/users/getjobdocuments/:jobid',async (req:any,res)=>{
     })
 
 
-    app.post('',async (req:TypedRequestBody<{managerid:number,userid:number}>,res:any)=>{
+    app.post('/api/users/addusertomanager',async (req:TypedRequestBody<{managerid:number,userid:number}>,res:any)=>{
         try {
                 const {userid,managerid} = req.body;
                 const success = await db.one(`insert into orgchart(user_id,manager_id) values(${req.body.userid},${req.body.managerid}) returning id;`);
@@ -266,6 +290,13 @@ app.get('/api/users/getjobdocuments/:jobid',async (req:any,res)=>{
         } catch(err){
             res.json(err).status(400);
         }
-    })
+    });
+
+
+    app.post('/api/users/deleteuserfrommanager',async (req:TypedRequestBody<{managerid:number,userid:number}>,res) => {
+        const success = await db.query(`delete from orgchart where manager_id = ${req.body.managerid} and user_id = ${req.body.userid}`);
+        return res.status(200);
+    });
+
 
 }
