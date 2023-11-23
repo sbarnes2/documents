@@ -154,3 +154,20 @@ insert into JOB_DOCUMENTS (doc_id,job_id) values (595,4);
 insert into JOB_DOCUMENTS (doc_id,job_id) values (1078,4);
 
 COMMIT;
+
+
+CREATE OR REPLACE VIEW public.user_training_needed AS
+ SELECT DISTINCT ts.userid,
+    u.username,
+    u.email_address,
+    dl.id AS documentid,
+    dl.documentqtid,
+    dl.documenttitle,
+    ts.usercurrentrevision,
+    csd.rev
+   FROM (((training_status ts
+     JOIN document_list dl ON ((dl.id = ts.documentid)))
+     JOIN current_state_documents csd ON (((csd.documentcode)::text = (dl.documentqtid)::text)))
+     JOIN users u ON ((u.id = ts.userid)))
+  WHERE (((ts.usercurrentrevision)::integer < (csd.rev)::integer) OR ((ts.training_complete_date IS NULL) AND ((ts.usercurrentrevision)::text = '0'::text)))
+  ORDER BY ts.userid, dl.documentqtid;
