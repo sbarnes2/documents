@@ -20,10 +20,31 @@ export const register = (app: express.Application) =>{
     const db = pgp(config);
 
     // Users
-     app.get('/api/users/all',async (req:any, res) => {
-            const users = await db.any('select u.*,o.manager_id,0 as team_id  from users u inner join orgchart o on o.user_id = u.id');
+/* ß */
+
+/*  Select t.name,tm.team_id as TEAM_id,u.id as userid,u.username,jt.name,tm.user_is_manager as manager
+    from users u
+    inner join team_members tm on tm.user_id = u.id
+    left join teams t on t.id = tm.team_id
+    left join user_jobtitle uj ON uj.user_id = u.id
+    left join job_titles jt on jt.id = uj.job_title_id
+    order by tm.user_is_manager DESC ,u.id */
+
+    app.get('/api/users/all',async(req:any,res)=>{
+        try{
+            let sql:string  = 'Select t.name,tm.team_id as TEAM_id,u.id as userid,u.username,jt.name,tm.user_is_manager as manager from users u ';
+            sql = sql + 'inner join team_members tm on tm.user_id = u.id ';
+            sql = sql + 'left join teams t on t.id = tm.team_id ';
+            sql = sql + 'left join user_jobtitle uj ON uj.user_id = u.id ';
+            sql = sql + 'left join job_titles jt on jt.id = uj.job_title_id ';
+            sql = sql + 'order by tm.user_is_manager DESC ,u.username ';
+            const users = await db.any(sql);
             return res.json(users);
+        } catch(err) {
+            return res.json(err)
+        }
     });
+
 
 
 /*Get TEAM MEMBERS BASED ON MANAGER ID
@@ -59,11 +80,11 @@ order by tm.user_is_manager DESC ,u.id
 */
 
 app.get('/api/users/getteammembers/:teamid',async (req:any,res)=>{
-    let sql = 'Select t.name as teamname,u.id as userid,u.username,jt.name as jobtitle,tm.user_is_manager as manager from users u ';
+    let sql = 'Select t.name as teamname,t.id as team_id,u.id as userid,u.username,jt.name as jobtitle,tm.user_is_manager as manager from users u ';
     sql = sql + 'inner join team_members tm on tm.user_id = u.id ';
     sql = sql + 'inner join teams t on t.id = tm.team_id ';
-    sql = sql + 'inner join user_jobtitle uj ON uj.user_id = u.id ';
-    sql = sql + 'inner join job_titles jt on jt.id = uj.job_title_id ';
+    sql = sql + 'left join user_jobtitle uj ON uj.user_id = u.id ';
+    sql = sql + 'left join job_titles jt on jt.id = uj.job_title_id ';
     sql = sql + `where t.id = ${req.params.teamid} `;
     sql = sql + 'order by tm.user_is_manager DESC ,u.id'
 
@@ -74,6 +95,15 @@ app.get('/api/users/getteammembers/:teamid',async (req:any,res)=>{
     catch(e)
     {
         res.json(e).status(400);
+    }
+});
+
+app.get('/api/users/removefromteam/:userid', async(req:any,res) => {
+    try{
+        console.log(JSON.stringify(req.params))
+        const result = db.any(`update team_members set team_id = -1 where user_id = ${req.params.userid}`,);
+    }catch (err){
+        res.json(err).status(400)
     }
 });
 
@@ -130,8 +160,22 @@ app.get('/api/users/getjobdocuments/:jobid',async (req:any,res)=>{
     return res.json(user);
 });
 
+/* Select t.name,tm.team_id as TEAM_id,u.id as userid,u.username,u.firstname,u.surname,jt.id,jt.name,tm.user_is_manager as manager
+from users u
+inner join team_members tm on tm.user_id = u.id
+left join teams t on t.id = tm.team_id
+left join user_jobtitle uj ON uj.user_id = u.id
+left join job_titles jt on jt.id = uj.job_title_id
+where u.id = 21 */
+
     app.get('/api/users/user/:userid',async (req:any, res)=>{
-            const user = await db.any(`select * from users where id=${req.params.userid};`,);
+            let sql:string = 'Select t.name,tm.team_id as TEAM_id,u.id as userid,u.username,u.firstname,u.surname,jt.id as job_id,jt.name,tm.user_is_manager as manager from users u ';
+            sql = sql + 'inner join team_members tm on tm.user_id = u.id ';
+            sql = sql + 'left join teams t on t.id = tm.team_id ';
+            sql = sql + 'left join user_jobtitle uj ON uj.user_id = u.id ';
+            sql = sql + 'left join job_titles jt on jt.id = uj.job_title_id ';
+            sql = sql + `where u.id = ${req.params.userid}`;
+            const user = await db.any(sql,);
             return res.json(user);
     });
 /*
@@ -176,6 +220,22 @@ app.get('/api/users/getjobdocuments/:jobid',async (req:any,res)=>{
         return res.json(manager);
     });
 
+
+    // roles
+
+    // get
+
+    app.get('/api/team/roles/all', async(req:any,res) =>{
+        const sql:string = `select * from job_titles;`;
+        const roles = await db.any(sql,);
+        return res.json(roles);
+    });
+
+    app.get('/api/team/roles/:teamid', async(req:any,res) =>{
+        const sql:string = `select * from job_titles where team_id =${req.params.teamid};`;
+        const roles = await db.any(sql,);
+        return res.json(roles);
+    });
 
 
 
@@ -274,12 +334,11 @@ app.get('/api/users/getjobdocuments/:jobid',async (req:any,res)=>{
         }
     });
 
-
     app.post('/api/users/updateuserdocument',async (req:TypedRequestBody<{userid:string,documentid:string,newrevision:string}>,res) => {
         // fill in query here + add all required fields to the body, new rev number, documentid (not qt9 id)
         const success = await db.query(`update training_status set usercurrentrevision=${req.body.newrevision} ,trainingcomplete=true,training_complete_date = NOW() where userid = '${req.body.userid}' and documentid='${req.body.documentid}'`);
         return res.status(200);
-    })
+    });
 
 
     app.post('/api/users/addusertomanager',async (req:TypedRequestBody<{managerid:number,userid:number}>,res:any)=>{

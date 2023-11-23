@@ -48,6 +48,10 @@ insert into team_members(user_id,user_is_manager,team_id) values (36,false,4);
 --Anna
 insert into team_members(user_id,user_is_manager,team_id) values (56,true,0);
 
+--The Rest as no team
+insert into team_members (user_id,user_is_manager,team_id) 
+select id,false,-1 from users u where u.id not in (select user_id from team_members);
+
 
 -- Create a list of Users Job Titles and the Team to which the title belongs 
 DROP TABLE IF EXISTS JOB_TITLES;

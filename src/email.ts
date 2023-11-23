@@ -23,6 +23,11 @@ const config = {
 const pgp  = pgPromise();
 const db = pgp(config);
 
+const informEmail : string = "A new version of the Document [document number] [document title] has been published. Please review and document your training in the next three (3) weeks";
+const weekOneEmail : string = "A new version of the Document [document number] [document title] has been published. Please review and document your training.";
+const weekTwoEmail : string = "A new version of the Document [document number] [document title] has been published. Please review and document your training. In one (1) week, an email notification will be sent to your direct supervisor.";
+const weekThreeEmail : string = "A new version of the Document [document number] [document title] has been published. This training is considered overdue. This notification has been escalated to your direct supervisor";
+
 
 const inform:EmailDefinition = {from:sendFrom,to:'',html:'<h1>Welcome</h1><p>That was easy!</p>',subject:'Training notification.'};
 const warn:EmailDefinition = {from:sendFrom,to:'',html:'<h1>Welcome</h1><p>That was easy!</p>',subject:'Training certification late.'};
