@@ -28,7 +28,7 @@ export const register = (app: express.Application) =>{
         }
     });
 
-    app.get('api/documents/documentbytype/:type',async(req:express.Request,res)=>{
+/*     app.get('api/documents/documentbytype/:type',async(req:express.Request,res)=>{
         try{
 
             // tslint:disable-next-line:no-console
@@ -42,7 +42,7 @@ export const register = (app: express.Application) =>{
             console.error(err);
             res.json({error: err.message || err});
         }
-    });
+    }); */
 
     app.post('/api/documents/add',async (req:TypedRequestBody<{DocumentName:string,DocumentCode:string,DocumentType:string,DocumentNumber:string,RiskLevel:number}>, res) => {
         try{

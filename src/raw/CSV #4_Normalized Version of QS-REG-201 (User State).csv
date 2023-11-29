@@ -1,0 +1,926 @@
+Employee Name,QT9 Document Code,Revision,Title,Trained
+Jeff Luber,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Jeff Luber,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Jeff Luber,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Jeff Luber,CO-QA-SOP-237,0,QT9 - Periodic Review and Making Documents Obsolete,Y
+Jeff Luber,CO-QA-SOP-274,0,Applicable Standards Management Procedure,Y
+Jeff Luber,CO-H&S-P-001,9,Health & Safety Policy,Y
+Jeff Luber,CO-DES-SOP-029,10,Design and Development Procedure,Y
+Jeff Luber,CO-DES-SOP-243,6,CE Mark/Technical File Procedure,Y
+Jeff Luber,CO-DES-SOP-004,4,Software Development Procedure,Y
+Jeff Luber,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Jeff Luber,CO-QA-SOP-098,7,Document Matrix,Y
+Jeff Luber,CO-QA-SOP-139,15,Change Management,Y
+Jeff Luber,CO-IT-SOP-044,4,IT Management Back Up and Support,Y
+Jeff Luber,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Jeff Luber,CO-QA-SOP-028,8,Quality Records,Y
+Jeff Luber,CO-QA-SOP-003,17,Non Conformance Procedure,Y
+Jeff Luber,CO-QA-SOP-077,10,Supplier Audit Procedure,Y
+Jeff Luber,CO-QA-SOP-076,8,Product Complaint Handling,Y
+Jeff Luber,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,Y
+Jeff Luber,CO-QA-SOP-345,4,Tools for Root Cause Analysis,Y
+Jeff Luber,CO-QA-SOP-267,7,Post Market Surveillance,N
+Jeff Luber,CO-QA-SOP-011,6,Supplier Corrective Action Response Procedure,Y
+Jeff Luber,CO-QA-SOP-099,5,Deviation procedure,Y
+Jeff Luber,CO-QA-SOP-093,7,CAPA Procedure,Y
+Jeff Luber,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Jeff Luber,CO-QA-SOP-096,5,Monitoring and Reporting of Quality Data,Y
+Jeff Luber,CO-QA-SOP-014,2,Quality Planning Procedure,Y
+Jeff Luber,CO-QA-POL-021,9,Quality Manual,Y
+Jeff Luber,CO-QA-POL-006,5,Policy for Document Control and Change Management,Y
+Jeff Luber,CO-HR-POL-007,2,Training Policy,Y
+Jeff Luber,CO-QA-POL-014,4,Poilcy for Control of Non Conformance ,Y
+Jeff Luber,CO-CA-POL-009,3,Policy for Verification and Validation,Y
+Jeff Luber,CO-CS-POL-012,4,Policy for Customer Feedback and Device Vigilance,Y
+Jeff Luber,CO-SUP-POL-017,3,"Policy for Customer Interface, Order Handling, Product Storage & Distribution",Y
+Jeff Luber,CO-QA-POL-019,6,Quality Policy,N
+Jeff Luber,CO-QA-SOP-285,6,Hazard Analysis Procedure,Y
+Jeff Luber,CO-QA-SOP-284,6,FMEA Procedure,Y
+Jeff Luber,CO-QA-SOP-283,4,Product Risk Management ,Y
+Jeff Luber,CO-SUP-SOP-068,14,Purchasing SOP,Y
+Jeff Luber,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Jeff Luber,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Jeff Luber,CO-QA-SOP-043,7,Training Procedure,Y
+Jeff Luber,CO-OPS-SOP-192,3,Verification Testing Process SOP,Y
+Jeff Luber,CO-IT-POL-022,0,Access Control Policy,Y
+Jeff Luber,CO-IT-POL-023,0,Asset Management Policy,Y
+Jeff Luber,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,Y
+Jeff Luber,CO-IT-POL-025,0,Code of Conduct,Y
+Jeff Luber,CO-IT-POL-026,0,Cryptography Policy,Y
+Jeff Luber,CO-IT-POL-027,0,Human Resource Security Policy,Y
+Jeff Luber,CO-IT-POL-028,0,Information Security Policy,Y
+Jeff Luber,CO-IT-POL-029,0,Information Security Roles and Responsibilities,Y
+Jeff Luber,CO-IT-POL-030,0,Physical Security Policy,Y
+Jeff Luber,CO-IT-POL-031,0,Responsible Disclosure Policy,Y
+Jeff Luber,CO-IT-POL-032,0,Risk Management ,Y
+Jeff Luber,CO-IT-POL-033,0,Third Party Management,Y
+Anna Dixon,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Anna Dixon,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Anna Dixon,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Anna Dixon,CO-QA-SOP-274,0,Applicable Standards Management Procedure,Y
+Anna Dixon,CO-H&S-P-001,9,Health & Safety Policy,Y
+Anna Dixon,CO-H&S-P-002,6,PAT Policy,Y
+Anna Dixon,CO-H&S-PRO-001,9,Health and Safety Fire Related Procedures,Y
+Anna Dixon,CO-H&S-PRO-002,8,Chemical COSHH Guidance,Y
+Anna Dixon,CO-H&S-PRO-003,5,Health and Safety Manual Handling,Y
+Anna Dixon,CO-H&S-PRO-004,4,Health & Safety Incident and Near Miss Reporting Procedure,Y
+Anna Dixon,CO-DES-SOP-029,10,Design and Development Procedure,Y
+Anna Dixon,CO-DES-SOP-243,6,CE Mark/Technical File Procedure,Y
+Anna Dixon,CO-DES-SOP-041,6,Design Review Work Instruction,Y
+Anna Dixon,CO-DES-SOP-042,3,Creation and maintenance of a Device Master Record,Y
+Anna Dixon,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Anna Dixon,CO-QA-SOP-139,15,Change Management,Y
+Anna Dixon,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Anna Dixon,CO-QA-SOP-028,8,Quality Records,Y
+Anna Dixon,CO-SAM-SOP-009,5,Control of Marketing and Promotion,N
+Anna Dixon,CO-LAB-SOP-295,6,Environmental Contamination Monitoring,Y
+Anna Dixon,CO-LAB-SOP-155,8,Lab book write up,Y
+Anna Dixon,CO-LAB-SOP-156,9,Lab rough notes,Y
+Anna Dixon,CO-LAB-SOP-103,12,Environmental Control in the Laboratory,Y
+Anna Dixon,CO-LAB-SOP-145,4,Storage and Safe handling of Biohazardous Materials,Y
+Anna Dixon,CO-LAB-SOP-151,10,Management and Control of Critical and Controlled equipment,Y
+Anna Dixon,CO-QC-SOP-094,5,Procedure to control chemical and biological spillages,Y
+Anna Dixon,CO-LAB-SOP-288,4,Assessment of Potentiostat Performance,Y
+Anna Dixon,CO-LAB-SOP-158,5,Use of NanoDrop SP2000 Spectrophotometer for quantifying nucleic acid and protein samples,N
+Anna Dixon,CO-LAB-SOP-149,5,Introducing New Laboratory Equipment,N
+Anna Dixon,CO-LAB-SOP-135,3,Use and Completion of MFG documents,Y
+Anna Dixon,CO-LAB-SOP-170,3,Rapid PCR Rig Work Instructions,Y
+Anna Dixon,CO-LAB-SOP-178,1,Signal Analyser,Y
+Anna Dixon,CO-CA-SOP-081,2,Collection of Human samples for QA purposes,Y
+Anna Dixon,CO-QA-SOP-003,17,Non Conformance Procedure,N
+Anna Dixon,CO-QA-SOP-004,12,Internal Audit,N
+Anna Dixon,CO-QA-SOP-077,10,Supplier Audit Procedure,N
+Anna Dixon,CO-QA-SOP-076,8,Product Complaint Handling,N
+Anna Dixon,CO-QA-SOP-345,4,Tools for Root Cause Analysis,N
+Anna Dixon,CO-QA-SOP-267,7,Post Market Surveillance,N
+Anna Dixon,CO-QA-SOP-099,5,Deviation procedure,Y
+Anna Dixon,CO-QA-SOP-093,7,CAPA Procedure,Y
+Anna Dixon,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Anna Dixon,CO-QA-POL-021,9,Quality Manual,Y
+Anna Dixon,CO-HR-POL-007,2,Training Policy,Y
+Anna Dixon,CO-QA-POL-014,4,Poilcy for Control of Non Conformance ,Y
+Anna Dixon,CO-QA-POL-020,8,Risk Management Policy,Y
+Anna Dixon,CO-CA-POL-009,3,Policy for Verification and Validation,N
+Anna Dixon,CO-QA-POL-019,6,Quality Policy,N
+Anna Dixon,CO-QA-POL-013,1,Policy for Complaints and Vigilance,Y
+Anna Dixon,CO-QA-SOP-285,6,Hazard Analysis Procedure,Y
+Anna Dixon,CO-QA-SOP-284,6,FMEA Procedure,Y
+Anna Dixon,CO-QA-SOP-283,4,Product Risk Management ,Y
+Anna Dixon,CO-SUP-SOP-068,14,Purchasing SOP,N
+Anna Dixon,CO-SUP-SOP-072,13,"Instructions for receipt of incoming Non-Stock goods, assigning GRN numbers and labelling",N
+Anna Dixon,CO-SUP-SOP-280,8,Setting Expiry Dates for Incoming Materials,Y
+Anna Dixon,CO-QA-SOP-043,7,Training Procedure,Y
+Anna Dixon,CO-OPS-SOP-192,3,Verification Testing Process SOP,Y
+Anna Dixon,CO-OPS-SOP-188,4,Process Validation,Y
+Anna Dixon,CO-OPS-SOP-002,3,Planning for Process Validation,Y
+Anna Dixon,CO-OPS-SOP-032,3,Validation of Automated Equipment and Quality System Software,Y
+Anna Dixon,CO-OPS-SOP-034,3,Test Method Validation,Y
+Anna Dixon,CO-IT-POL-022,0,Access Control Policy,N
+Anna Dixon,CO-IT-POL-023,0,Asset Management Policy,N
+Anna Dixon,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Anna Dixon,CO-IT-POL-025,0,Code of Conduct,N
+Anna Dixon,CO-IT-POL-026,0,Cryptography Policy,N
+Anna Dixon,CO-IT-POL-027,0,Human Resource Security Policy,N
+Anna Dixon,CO-IT-POL-028,0,Information Security Policy,N
+Anna Dixon,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Anna Dixon,CO-IT-POL-030,0,Physical Security Policy,N
+Anna Dixon,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Anna Dixon,CO-IT-POL-032,0,Risk Management ,N
+Anna Dixon,CO-IT-POL-033,0,Third Party Management,N
+Jack Kaminski,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Jack Kaminski,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Jack Kaminski,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Jack Kaminski,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Jack Kaminski,CO-QA-SOP-098,7,Document Matrix,N
+Jack Kaminski,CO-IT-SOP-044,4,IT Management Back Up and Support,Y
+Jack Kaminski,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Jack Kaminski,CO-QA-SOP-028,8,Quality Records,Y
+Jack Kaminski,CO-QA-SOP-025,10,Management Review,Y
+Jack Kaminski,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Jack Kaminski,CO-QA-POL-021,9,Quality Manual,N
+Jack Kaminski,CO-QA-POL-006,5,Policy for Document Control and Change Management,Y
+Jack Kaminski,CO-HR-POL-007,2,Training Policy,Y
+Jack Kaminski,CO-OPS-POL-008,4,Policy for Purchasing and Management of Suppliers,Y
+Jack Kaminski,CO-QA-POL-019,6,Quality Policy,N
+Jack Kaminski,CO-SUP-SOP-068,14,Purchasing SOP,N
+Jack Kaminski,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Jack Kaminski,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Jack Kaminski,CO-QA-SOP-043,7,Training Procedure,Y
+Jack Kaminski,CO-IT-POL-022,0,Access Control Policy,N
+Jack Kaminski,CO-IT-POL-023,0,Asset Management Policy,N
+Jack Kaminski,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Jack Kaminski,CO-IT-POL-025,0,Code of Conduct,N
+Jack Kaminski,CO-IT-POL-026,0,Cryptography Policy,N
+Jack Kaminski,CO-IT-POL-027,0,Human Resource Security Policy,N
+Jack Kaminski,CO-IT-POL-028,0,Information Security Policy,N
+Jack Kaminski,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Jack Kaminski,CO-IT-POL-030,0,Physical Security Policy,N
+Jack Kaminski,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Jack Kaminski,CO-IT-POL-032,0,Risk Management ,N
+Jack Kaminski,CO-IT-POL-033,0,Third Party Management,N
+Pia Olsen,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Pia Olsen,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Pia Olsen,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,N
+Pia Olsen,CO-QA-SOP-140,18,Document Control & Control of Quality Records,N
+Pia Olsen,CO-QA-SOP-098,7,Document Matrix,N
+Pia Olsen,CO-IT-SOP-044,4,IT Management Back Up and Support,Y
+Pia Olsen,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Pia Olsen,CO-QA-SOP-028,8,Quality Records,Y
+Pia Olsen,CO-QA-SOP-025,10,Management Review,Y
+Pia Olsen,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Pia Olsen,CO-QA-POL-021,9,Quality Manual,N
+Pia Olsen,CO-QA-POL-006,5,Policy for Document Control and Change Management,Y
+Pia Olsen,CO-HR-POL-007,2,Training Policy,Y
+Pia Olsen,CO-OPS-POL-008,4,Policy for Purchasing and Management of Suppliers,Y
+Pia Olsen,CO-QA-POL-019,6,Quality Policy,N
+Pia Olsen,CO-QA-SOP-043,7,Training Procedure,Y
+Pia Olsen,CO-IT-POL-022,0,Access Control Policy,Y
+Pia Olsen,CO-IT-POL-023,0,Asset Management Policy,Y
+Pia Olsen,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,Y
+Pia Olsen,CO-IT-POL-025,0,Code of Conduct,Y
+Pia Olsen,CO-IT-POL-026,0,Cryptography Policy,Y
+Pia Olsen,CO-IT-POL-027,0,Human Resource Security Policy,Y
+Pia Olsen,CO-IT-POL-028,0,Information Security Policy,Y
+Pia Olsen,CO-IT-POL-029,0,Information Security Roles and Responsibilities,Y
+Pia Olsen,CO-IT-POL-030,0,Physical Security Policy,Y
+Pia Olsen,CO-IT-POL-031,0,Responsible Disclosure Policy,Y
+Pia Olsen,CO-IT-POL-032,0,Risk Management ,Y
+Pia Olsen,CO-IT-POL-033,0,Third Party Management,Y
+Alyssa Luber,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Alyssa Luber,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Alyssa Luber,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Alyssa Luber,CO-DES-SOP-006,1,Reagent Design Transfer Process ,N
+Alyssa Luber,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Alyssa Luber,CO-QA-SOP-098,7,Document Matrix,N
+Alyssa Luber,CO-QA-SOP-139,15,Change Management,N
+Alyssa Luber,CO-IT-SOP-044,4,IT Management Back Up and Support,Y
+Alyssa Luber,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Alyssa Luber,CO-QA-SOP-028,8,Quality Records,Y
+Alyssa Luber,CO-SAM-SOP-009,5,Control of Marketing and Promotion,N
+Alyssa Luber,CO-QA-SOP-025,10,Management Review,Y
+Alyssa Luber,CO-QA-SOP-076,8,Product Complaint Handling,N
+Alyssa Luber,CO-QA-SOP-267,7,Post Market Surveillance,N
+Alyssa Luber,CO-QA-SOP-093,7,CAPA Procedure,Y
+Alyssa Luber,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Alyssa Luber,CO-QA-POL-021,9,Quality Manual,N
+Alyssa Luber,CO-HR-POL-007,2,Training Policy,Y
+Alyssa Luber,CO-QA-POL-019,6,Quality Policy,N
+Alyssa Luber,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Alyssa Luber,CO-QA-SOP-043,7,Training Procedure,Y
+Alyssa Luber,CO-IT-POL-022,0,Access Control Policy,N
+Alyssa Luber,CO-IT-POL-023,0,Asset Management Policy,N
+Alyssa Luber,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Alyssa Luber,CO-IT-POL-025,0,Code of Conduct,N
+Alyssa Luber,CO-IT-POL-026,0,Cryptography Policy,N
+Alyssa Luber,CO-IT-POL-027,0,Human Resource Security Policy,N
+Alyssa Luber,CO-IT-POL-028,0,Information Security Policy,N
+Alyssa Luber,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Alyssa Luber,CO-IT-POL-030,0,Physical Security Policy,N
+Alyssa Luber,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Alyssa Luber,CO-IT-POL-032,0,Risk Management ,N
+Alyssa Luber,CO-IT-POL-033,0,Third Party Management,N
+Alyssa Amidei,CO-IT-POL-022,0,Access Control Policy,N
+Alyssa Amidei,CO-IT-POL-023,0,Asset Management Policy,N
+Alyssa Amidei,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Alyssa Amidei,CO-IT-POL-025,0,Code of Conduct,N
+Alyssa Amidei,CO-IT-POL-026,0,Cryptography Policy,N
+Alyssa Amidei,CO-IT-POL-027,0,Human Resource Security Policy,N
+Alyssa Amidei,CO-IT-POL-028,0,Information Security Policy,N
+Alyssa Amidei,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Alyssa Amidei,CO-IT-POL-030,0,Physical Security Policy,N
+Alyssa Amidei,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Alyssa Amidei,CO-IT-POL-032,0,Risk Management ,N
+Alyssa Amidei,CO-IT-POL-033,0,Third Party Management,N
+Sarah Thomas,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,N
+Sarah Thomas,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,N
+Sarah Thomas,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,N
+Sarah Thomas,CO-QA-SOP-237,0,QT9 - Periodic Review and Making Documents Obsolete,N
+Sarah Thomas,CO-QA-SOP-274,0,Applicable Standards Management Procedure,N
+Sarah Thomas,CO-IT-SOP-044,4,IT Management Back Up and Support,N
+Sarah Thomas,CO-QA-SOP-026,5,Use of Sharepoint,N
+Sarah Thomas,CO-QA-SOP-028,8,Quality Records,N
+Sarah Thomas,CO-SAM-SOP-009,5,Control of Marketing and Promotion,N
+Sarah Thomas,CO-QA-SOP-076,8,Product Complaint Handling,N
+Sarah Thomas,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,N
+Sarah Thomas,CO-QA-SOP-007,5,"Correction, Removal and Recall Procedure",N
+Sarah Thomas,CO-QA-SOP-267,7,Post Market Surveillance,N
+Sarah Thomas,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Sarah Thomas,CO-QA-POL-021,9,Quality Manual,N
+Sarah Thomas,CO-QA-POL-006,5,Policy for Document Control and Change Management,N
+Sarah Thomas,CO-HR-POL-007,2,Training Policy,N
+Sarah Thomas,CO-QA-POL-019,6,Quality Policy,N
+Sarah Thomas,CO-QA-SOP-043,7,Training Procedure,N
+Sarah Thomas,CO-IT-POL-022,0,Access Control Policy,N
+Sarah Thomas,CO-IT-POL-023,0,Asset Management Policy,N
+Sarah Thomas,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Sarah Thomas,CO-IT-POL-025,0,Code of Conduct,N
+Sarah Thomas,CO-IT-POL-026,0,Cryptography Policy,N
+Sarah Thomas,CO-IT-POL-027,0,Human Resource Security Policy,N
+Sarah Thomas,CO-IT-POL-028,0,Information Security Policy,N
+Sarah Thomas,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Sarah Thomas,CO-IT-POL-030,0,Physical Security Policy,N
+Sarah Thomas,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Sarah Thomas,CO-IT-POL-032,0,Risk Management ,N
+Sarah Thomas,CO-IT-POL-033,0,Third Party Management,N
+Tracie Medairos,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Tracie Medairos,HS-P-001,9,Health & Safety Policy,N
+Tracie Medairos,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Tracie Medairos,CO-QA-SOP-028,8,Quality Records,Y
+Tracie Medairos,CO-QA-SOP-076,8,Product Complaint Handling,N
+Tracie Medairos,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,N
+Tracie Medairos,CO-QA-SOP-093,7,CAPA Procedure,N
+Tracie Medairos,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Tracie Medairos,CO-SUP-SOP-002,4,Intrument service and repair,Y
+Tracie Medairos,CO-QA-POL-021,9,Quality Manual,Y
+Tracie Medairos,CO-HR-POL-007,2,Training Policy,Y
+Tracie Medairos,CO-QA-POL-019,6,Quality Policy,N
+Tracie Medairos,CO-QA-SOP-043,7,Training Procedure,N
+Tracie Medairos,CO-IT-POL-022,0,Access Control Policy,N
+Tracie Medairos,CO-IT-POL-023,0,Asset Management Policy,N
+Tracie Medairos,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Tracie Medairos,CO-IT-POL-025,0,Code of Conduct,N
+Tracie Medairos,CO-IT-POL-026,0,Cryptography Policy,N
+Tracie Medairos,CO-IT-POL-027,0,Human Resource Security Policy,N
+Tracie Medairos,CO-IT-POL-028,0,Information Security Policy,N
+Tracie Medairos,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Tracie Medairos,CO-IT-POL-030,0,Physical Security Policy,N
+Tracie Medairos,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Tracie Medairos,CO-IT-POL-032,0,Risk Management ,N
+Tracie Medairos,CO-IT-POL-033,0,Third Party Management,N
+Nasa Suon,CO-CS-SOP-249,0,io Insepction using Data Collection Cartridge,Y
+Nasa Suon,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Nasa Suon,CO-H&S-P-001,9,Health & Safety Policy,N
+Nasa Suon,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Nasa Suon,CO-QA-SOP-139,15,Change Management,N
+Nasa Suon,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Nasa Suon,CO-QA-SOP-028,8,Quality Records,Y
+Nasa Suon,CO-LAB-SOP-095,5,External and repair Cleaning for io readers used at Atlas,Y
+Nasa Suon,CO-LAB-SOP-163,8,Running End to End CT cartridges on io Readers,Y
+Nasa Suon,CO-QA-SOP-003,17,Non Conformance Procedure,N
+Nasa Suon,CO-QA-SOP-076,8,Product Complaint Handling,N
+Nasa Suon,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,N
+Nasa Suon,CO-QA-SOP-011,6,Supplier Corrective Action Response Procedure,Y
+Nasa Suon,CO-QA-SOP-093,7,CAPA Procedure,Y
+Nasa Suon,CO-SUP-SOP-002,4,Intrument service and repair,Y
+Nasa Suon,CO-QA-POL-021,9,Quality Manual,N
+Nasa Suon,CO-HR-POL-007,2,Training Policy,Y
+Nasa Suon,CO-QA-POL-019,6,Quality Policy,N
+Nasa Suon,CO-OPS-PTL-048,3,IO Release Procedure for Refurbished and Reworked Readers,Y
+Nasa Suon,CO-SUP-SOP-068,14,Purchasing SOP,N
+Nasa Suon,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Nasa Suon,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Nasa Suon,CO-QA-SOP-043,7,Training Procedure,Y
+Nasa Suon,CO-IT-POL-022,0,Access Control Policy,N
+Nasa Suon,CO-IT-POL-023,0,Asset Management Policy,N
+Nasa Suon,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Nasa Suon,CO-IT-POL-025,0,Code of Conduct,N
+Nasa Suon,CO-IT-POL-026,0,Cryptography Policy,N
+Nasa Suon,CO-IT-POL-027,0,Human Resource Security Policy,N
+Nasa Suon,CO-IT-POL-028,0,Information Security Policy,N
+Nasa Suon,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Nasa Suon,CO-IT-POL-030,0,Physical Security Policy,N
+Nasa Suon,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Nasa Suon,CO-IT-POL-032,0,Risk Management ,N
+Nasa Suon,CO-IT-POL-033,0,Third Party Management,N
+Alexia Osei-Dabankah,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Alexia Osei-Dabankah,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Alexia Osei-Dabankah,CO-H&S-P-001,9,Health & Safety Policy,N
+Alexia Osei-Dabankah,CO-H&S-P-003,1,Stress Policy ,Y
+Alexia Osei-Dabankah,CO-H&S-PRO-001,9,Health and Safety Fire Related Procedures,Y
+Alexia Osei-Dabankah,CO-H&S-PRO-004,4,Health & Safety Incident and Near Miss Reporting Procedure,Y
+Alexia Osei-Dabankah,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Alexia Osei-Dabankah,CO-QA-SOP-139,15,Change Management,Y
+Alexia Osei-Dabankah,CO-IT-SOP-044,4,IT Management Back Up and Support,Y
+Alexia Osei-Dabankah,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Alexia Osei-Dabankah,CO-QA-SOP-028,8,Quality Records,Y
+Alexia Osei-Dabankah,CO-SUP-SOP-048,3,Raise PO Non Stock and Services,Y
+Alexia Osei-Dabankah,CO-SUP-SOP-049,4,Receive non sock PO ,Y
+Alexia Osei-Dabankah,CO-QA-SOP-003,17,Non Conformance Procedure,N
+Alexia Osei-Dabankah,CO-QA-SOP-076,8,Product Complaint Handling,N
+Alexia Osei-Dabankah,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,N
+Alexia Osei-Dabankah,CO-QA-SOP-267,7,Post Market Surveillance,N
+Alexia Osei-Dabankah,CO-QA-SOP-093,7,CAPA Procedure,Y
+Alexia Osei-Dabankah,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Alexia Osei-Dabankah,CO-QA-POL-021,9,Quality Manual,N
+Alexia Osei-Dabankah,CO-HR-POL-007,2,Training Policy,Y
+Alexia Osei-Dabankah,CO-QA-POL-019,6,Quality Policy,N
+Alexia Osei-Dabankah,CO-SUP-SOP-068,14,Purchasing SOP,N
+Alexia Osei-Dabankah,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Alexia Osei-Dabankah,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Alexia Osei-Dabankah,CO-QA-SOP-043,7,Training Procedure,Y
+Alexia Osei-Dabankah,CO-IT-POL-022,0,Access Control Policy,N
+Alexia Osei-Dabankah,CO-IT-POL-023,0,Asset Management Policy,N
+Alexia Osei-Dabankah,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Alexia Osei-Dabankah,CO-IT-POL-025,0,Code of Conduct,N
+Alexia Osei-Dabankah,CO-IT-POL-026,0,Cryptography Policy,N
+Alexia Osei-Dabankah,CO-IT-POL-027,0,Human Resource Security Policy,N
+Alexia Osei-Dabankah,CO-IT-POL-028,0,Information Security Policy,N
+Alexia Osei-Dabankah,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Alexia Osei-Dabankah,CO-IT-POL-030,0,Physical Security Policy,N
+Alexia Osei-Dabankah,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Alexia Osei-Dabankah,CO-IT-POL-032,0,Risk Management ,N
+Alexia Osei-Dabankah,CO-IT-POL-033,0,Third Party Management,N
+Evan Bartlett,CO-H&S-P-001,9,Health & Safety Policy,N
+Evan Bartlett,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Evan Bartlett,CO-QA-SOP-139,15,Change Management,Y
+Evan Bartlett,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Evan Bartlett,CO-QA-SOP-028,8,Quality Records,Y
+Evan Bartlett,CO-SUP-SOP-046,2,Create New Customer Return,Y
+Evan Bartlett,CO-LAB-SOP-095,5,External and repair Cleaning for io readers used at Atlas,Y
+Evan Bartlett,CO-LAB-SOP-163,8,Running End to End CT cartridges on io Readers,Y
+Evan Bartlett,CO-QA-SOP-003,17,Non Conformance Procedure,Y
+Evan Bartlett,CO-QA-SOP-077,10,Supplier Audit Procedure,N
+Evan Bartlett,CO-QA-SOP-076,8,Product Complaint Handling,N
+Evan Bartlett,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,Y
+Evan Bartlett,CO-QA-SOP-011,6,Supplier Corrective Action Response Procedure,Y
+Evan Bartlett,CO-QA-SOP-093,7,CAPA Procedure,Y
+Evan Bartlett,CO-SUP-SOP-002,4,Intrument service and repair,Y
+Evan Bartlett,CO-QA-POL-021,9,Quality Manual,Y
+Evan Bartlett,CO-HR-POL-007,2,Training Policy,Y
+Evan Bartlett,CO-QA-POL-019,6,Quality Policy,N
+Evan Bartlett,CO-OPS-PTL-048,3,IO Release Procedure for Refurbished and Reworked Readers,Y
+Evan Bartlett,CO-SUP-SOP-068,14,Purchasing SOP,N
+Evan Bartlett,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Evan Bartlett,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Evan Bartlett,CO-QA-SOP-043,7,Training Procedure,Y
+Evan Bartlett,CO-IT-POL-022,0,Access Control Policy,N
+Evan Bartlett,CO-IT-POL-023,0,Asset Management Policy,N
+Evan Bartlett,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Evan Bartlett,CO-IT-POL-025,0,Code of Conduct,N
+Evan Bartlett,CO-IT-POL-026,0,Cryptography Policy,N
+Evan Bartlett,CO-IT-POL-027,0,Human Resource Security Policy,N
+Evan Bartlett,CO-IT-POL-028,0,Information Security Policy,N
+Evan Bartlett,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Evan Bartlett,CO-IT-POL-030,0,Physical Security Policy,N
+Evan Bartlett,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Evan Bartlett,CO-IT-POL-032,0,Risk Management ,N
+Evan Bartlett,CO-IT-POL-033,0,Third Party Management,N
+Reno Torres,CO-H&S-P-001,9,Health & Safety Policy,Y
+Reno Torres,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Reno Torres,CO-QA-SOP-139,15,Change Management,Y
+Reno Torres,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Reno Torres,CO-QA-SOP-028,8,Quality Records,Y
+Reno Torres,CO-QA-SOP-076,8,Product Complaint Handling,N
+Reno Torres,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,Y
+Reno Torres,CO-QA-POL-021,9,Quality Manual,Y
+Reno Torres,CO-HR-POL-007,2,Training Policy,Y
+Reno Torres,CO-QA-POL-019,6,Quality Policy,N
+Reno Torres,CO-SUP-SOP-068,14,Purchasing SOP,N
+Reno Torres,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Reno Torres,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Reno Torres,CO-QA-SOP-043,7,Training Procedure,Y
+Reno Torres,CO-IT-POL-022,0,Access Control Policy,N
+Reno Torres,CO-IT-POL-023,0,Asset Management Policy,N
+Reno Torres,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Reno Torres,CO-IT-POL-025,0,Code of Conduct,N
+Reno Torres,CO-IT-POL-026,0,Cryptography Policy,N
+Reno Torres,CO-IT-POL-027,0,Human Resource Security Policy,N
+Reno Torres,CO-IT-POL-028,0,Information Security Policy,N
+Reno Torres,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Reno Torres,CO-IT-POL-030,0,Physical Security Policy,N
+Reno Torres,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Reno Torres,CO-IT-POL-032,0,Risk Management ,N
+Reno Torres,CO-IT-POL-033,0,Third Party Management,N
+Nicole Surprise-Freeman,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Nicole Surprise-Freeman,CO-H&S-P-001,9,Health & Safety Policy,Y
+Nicole Surprise-Freeman,CO-SAM-SOP-009,5,Control of Marketing and Promotion,N
+Nicole Surprise-Freeman,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Nicole Surprise-Freeman,CO-QA-POL-021,9,Quality Manual,Y
+Nicole Surprise-Freeman,CO-HR-POL-007,2,Training Policy,Y
+Nicole Surprise-Freeman,CO-QA-POL-019,6,Quality Policy,N
+Nicole Surprise-Freeman,CO-IT-POL-022,0,Access Control Policy,N
+Nicole Surprise-Freeman,CO-IT-POL-023,0,Asset Management Policy,N
+Nicole Surprise-Freeman,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Nicole Surprise-Freeman,CO-IT-POL-025,0,Code of Conduct,N
+Nicole Surprise-Freeman,CO-IT-POL-026,0,Cryptography Policy,N
+Nicole Surprise-Freeman,CO-IT-POL-027,0,Human Resource Security Policy,N
+Nicole Surprise-Freeman,CO-IT-POL-028,0,Information Security Policy,N
+Nicole Surprise-Freeman,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Nicole Surprise-Freeman,CO-IT-POL-030,0,Physical Security Policy,N
+Nicole Surprise-Freeman,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Nicole Surprise-Freeman,CO-IT-POL-032,0,Risk Management ,N
+Nicole Surprise-Freeman,CO-IT-POL-033,0,Third Party Management,N
+Rachel Korwek,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,N
+Rachel Korwek,CO-QA-SOP-139,15,Change Management,N
+Rachel Korwek,CO-QA-SOP-026,5,Use of Sharepoint,N
+Rachel Korwek,CO-QA-SOP-028,8,Quality Records,N
+Rachel Korwek,CO-SUP-SOP-046,2,Create New Customer Return,N
+Rachel Korwek,CO-QA-SOP-076,8,Product Complaint Handling,N
+Rachel Korwek,CO-QA-SOP-093,7,CAPA Procedure,N
+Rachel Korwek,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Rachel Korwek,CO-SUP-SOP-002,4,Intrument service and repair,N
+Rachel Korwek,CO-QA-POL-021,9,Quality Manual,N
+Rachel Korwek,CO-HR-POL-007,2,Training Policy,N
+Rachel Korwek,CO-QA-POL-019,6,Quality Policy,N
+Rachel Korwek,CO-SUP-SOP-068,14,Purchasing SOP,N
+Rachel Korwek,CO-SUP-SOP-069,7,Supplier Evaluation SOP,N
+Rachel Korwek,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",N
+Rachel Korwek,CO-QA-SOP-043,7,Training Procedure,N
+Rachel Korwek,CO-IT-POL-022,0,Access Control Policy,N
+Rachel Korwek,CO-IT-POL-023,0,Asset Management Policy,N
+Rachel Korwek,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Rachel Korwek,CO-IT-POL-025,0,Code of Conduct,N
+Rachel Korwek,CO-IT-POL-026,0,Cryptography Policy,N
+Rachel Korwek,CO-IT-POL-027,0,Human Resource Security Policy,N
+Rachel Korwek,CO-IT-POL-028,0,Information Security Policy,N
+Rachel Korwek,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Rachel Korwek,CO-IT-POL-030,0,Physical Security Policy,N
+Rachel Korwek,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Rachel Korwek,CO-IT-POL-032,0,Risk Management ,N
+Rachel Korwek,CO-IT-POL-033,0,Third Party Management,N
+Antony Brown,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Antony Brown,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Antony Brown,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Antony Brown,CO-QA-SOP-237,0,QT9 - Periodic Review and Making Documents Obsolete,Y
+Antony Brown,CO-QA-SOP-274,0,Applicable Standards Management Procedure,Y
+Antony Brown,CO-QC-COP-001,3,Quality Control Laboratory Code of Practice,Y
+Antony Brown,CO-QC-COP-002 ,2,CL2 Microbiology Lab Code of Practice,Y
+Antony Brown,CO-H&S-COSHH-001,5,General Chemicals,Y
+Antony Brown,CO-H&S-COSHH-002,5,Oxidising Agents,Y
+Antony Brown,CO-H&S-COSHH-003,5,Flammable Materials,Y
+Antony Brown,CO-H&S-COSHH-004,5,Chlorinated Solvents,Y
+Antony Brown,CO-H&S-COSHH-005,5,Corrosive Bases,Y
+Antony Brown,CO-H&S-COSHH-006,5,Corrosive Acids,Y
+Antony Brown,CO-H&S-COSHH-007,5,COSHH assessment for general Hazard Group 2 organisms,Y
+Antony Brown,CO-H&S-COSHH-008,5,COSHH assessment for Hazard Group 2 respiratory pathogens,Y
+Antony Brown,CO-H&S-COSHH-009,4,COSHH Risk Assessment for Hazard Group 1 Pathogens,Y
+Antony Brown,CO-H&S-COSHH-010,6,COSHH Risk assessment for clinical samples,Y
+Antony Brown,CO-H&S-COSHH-012,5,Inactivated Micro-organisms,Y
+Antony Brown,CO-H&S-P-001,9,Health & Safety Policy,Y
+Antony Brown,CO-H&S-P-002,6,PAT Policy,Y
+Antony Brown,CO-H&S-PRO-001,9,Health and Safety Fire Related Procedures,Y
+Antony Brown,CO-H&S-PRO-002,8,Chemical COSHH Guidance,Y
+Antony Brown,CO-H&S-PRO-003,5,Health and Safety Manual Handling,Y
+Antony Brown,CO-H&S-PRO-004,4,Health & Safety Incident and Near Miss Reporting Procedure,Y
+Antony Brown,CO-H&S-RA-001,3,Risk Assessment for binx Health office and non-laboratory area,Y
+Antony Brown,CO-H&S-RA-003,4,Risk Assessment for laboratory areas (excluding Microbiology and Pilot Line),Y
+Antony Brown,CO-H&S-RA-004,5,Risk Assessment for  io® reader / assay development tools,Y
+Antony Brown,CO-H&S-RA-005,3,Dangerous and Explosive Atmosphere Risk Assessment,Y
+Antony Brown,CO-H&S-RA-006,5,Risk Assessment for use of UV irradiation in the binx health Laboratories,Y
+Antony Brown,CO-H&S-RA-007,4,RA Pilot Line Lab Area,Y
+Antony Brown,CO-H&S-RA-008,3,Risk Assessment for binx Health Employees,Y
+Antony Brown,CO-H&S-RA-009,3,Risk Assessment for use of Chemicals / Microorganisms,Y
+Antony Brown,CO-H&S-RA-011,6,Covid-19 Risk Assessment binx Health ltd,Y
+Antony Brown,CO-DES-SOP-029,10,Design and Development Procedure,Y
+Antony Brown,CO-DES-SOP-243,6,CE Mark/Technical File Procedure,Y
+Antony Brown,CO-DES-SOP-041,6,Design Review Work Instruction,Y
+Antony Brown,CO-DES-SOP-004,4,Software Development Procedure,Y
+Antony Brown,CO-DES-SOP-042,3,Creation and maintenance of a Device Master Record,Y
+Antony Brown,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Antony Brown,CO-QA-SOP-098,7,Document Matrix,N
+Antony Brown,CO-QA-SOP-139,15,Change Management,Y
+Antony Brown,CO-OPS-SOP-035,3,Engineering Drawing Control,Y
+Antony Brown,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Antony Brown,CO-OPS-SOP-036,2,Instrument Engineering Change Management,Y
+Antony Brown,CO-QA-SOP-028,8,Quality Records,Y
+Antony Brown,CO-SUP-SOP-048,3,Raise PO Non Stock and Services,Y
+Antony Brown,CO-SUP-SOP-049,4,Receive non sock PO ,Y
+Antony Brown,CO-SUP-SOP-055,2,Goods Movement ,Y
+Antony Brown,CO-SUP-SOP-057,2,Consume to cost centre or Project ,Y
+Antony Brown,CO-SUP-SOP-065,2,Complete a timesheet,Y
+Antony Brown,CO-LAB-SOP-300,5,Preparation of Sub-circuit cards for voltammetric detection,Y
+Antony Brown,CO-LAB-SOP-290,3,Running Clinical Samples in io Readers,Y
+Antony Brown,CO-LAB-SOP-155,8,Lab book write up,Y
+Antony Brown,CO-LAB-SOP-156,9,Lab rough notes,Y
+Antony Brown,CO-LAB-SOP-013,6,Balance calibration,Y
+Antony Brown,CO-LAB-SOP-103,12,Environmental Control in the Laboratory,Y
+Antony Brown,CO-LAB-SOP-145,4,Storage and Safe handling of Biohazardous Materials,Y
+Antony Brown,CO-LAB-SOP-151,10,Management and Control of Critical and Controlled equipment,Y
+Antony Brown,CO-LAB-SOP-137,7,Monitoring Variable Temperature Apparatus,Y
+Antony Brown,CO-LAB-SOP-108,20,Laboratory cleaning SOP,Y
+Antony Brown,CO-QC-SOP-094,5,Procedure to control chemical and biological spillages,Y
+Antony Brown,CO-LAB-SOP-102,4,Use of the Grant XB2 Ultrasonic Bath,Y
+Antony Brown,CO-LAB-SOP-149,5,Introducing New Laboratory Equipment,Y
+Antony Brown,CO-LAB-SOP-003,3,Validation of Temperature Controlled Equipemnt,Y
+Antony Brown,CO-LAB-SOP-095,5,External and repair Cleaning for io readers used at Atlas,Y
+Antony Brown,CO-LAB-SOP-163,8,Running End to End CT cartridges on io Readers,Y
+Antony Brown,CO-LAB-SOP-164,3,Operation and Maintenance of HT24-2P Bambi Compressor and DSIS Sealer,Y
+Antony Brown,CO-LAB-SOP-005,3,Rhychiger Heat Sealer,Y
+Antony Brown,CO-OPS-SOP-165,1,Windows Software Up-date,Y
+Antony Brown,CO-OPS-SOP-007,2,Firmware Up-date,Y
+Antony Brown,CO-OPS-SOP-166,2,Pneumatics Test Rig Set Up and Calibration,Y
+Antony Brown,CO-OPS-SOP-187,3,Force Test Rig Set Up and Calibration,Y
+Antony Brown,CO-OPS-SOP-008,3,Thermal Test Rig Set Up and Calibration,Y
+Antony Brown,CO-LAB-SOP-167,5,Attaching Electrode/Blister Adhesive and Blister Pack,Y
+Antony Brown,CO-LAB-SOP-169,3,Fermant Pouch Sealer (Pilot Line),Y
+Antony Brown,CO-LAB-SOP-170,3,Rapid PCR Rig Work Instructions,Y
+Antony Brown,CO-LAB-SOP-130,2,Heat Detection Rig Work Instructions,Y
+Antony Brown,CO-OPS-SOP-172,3,Tool Changes of the Rhychiger Heat Sealer ,Y
+Antony Brown,CO-LAB-SOP-020,2,Use of the Hulme Martin Impulse Sealer in DNA free,Y
+Antony Brown,CO-OPS-SOP-174,2,Engineering Rework Procedure ,Y
+Antony Brown,CO-LAB-SOP-176,2,SOP to provide guidance for IQC's,Y
+Antony Brown,CO-LAB-SOP-178,1,Signal Analyser,Y
+Antony Brown,CO-LAB-SOP-184,2,Pilot Line Blister Filling and Sealing Procedure,Y
+Antony Brown,CO-QC-SOP-185,1,Use of the SB3 Rotator,Y
+Antony Brown,CO-CA-SOP-081,2,Collection of Human samples for QA purposes,Y
+Antony Brown,CO-QA-SOP-003,17,Non Conformance Procedure,Y
+Antony Brown,CO-QA-SOP-004,12,Internal Audit,Y
+Antony Brown,CO-QA-SOP-077,10,Supplier Audit Procedure,Y
+Antony Brown,CO-QA-SOP-076,8,Product Complaint Handling,Y
+Antony Brown,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,Y
+Antony Brown,CO-QA-SOP-007,5,"Correction, Removal and Recall Procedure",N
+Antony Brown,CO-QA-SOP-345,4,Tools for Root Cause Analysis,Y
+Antony Brown,CO-QA-SOP-267,7,Post Market Surveillance,N
+Antony Brown,CO-QA-SOP-147,3,Managing an External Regulatory Visit,Y
+Antony Brown,CO-QA-SOP-011,6,Supplier Corrective Action Response Procedure,Y
+Antony Brown,CO-QA-SOP-099,5,Deviation procedure,Y
+Antony Brown,CO-QA-SOP-093,7,CAPA Procedure,Y
+Antony Brown,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Antony Brown,CO-QA-SOP-096,5,Monitoring and Reporting of Quality Data,Y
+Antony Brown,CO-QA-SOP-014,2,Quality Planning Procedure,Y
+Antony Brown,CO-QA-SOP-015,3,Competence of Atlas Auditors,Y
+Antony Brown,CO-QA-SOP-016,1,Identification and Traceability,Y
+Antony Brown,CO-SUP-SOP-002,4,Intrument service and repair,Y
+Antony Brown,CO-SUP-SOP-006,2,Equipment and fulfilment and field visits,Y
+Antony Brown,CO-QA-POL-021,9,Quality Manual,Y
+Antony Brown,CO-QA-POL-006,5,Policy for Document Control and Change Management,Y
+Antony Brown,CO-HR-POL-007,2,Training Policy,Y
+Antony Brown,CO-OPS-POL-008,4,Policy for Purchasing and Management of Suppliers,Y
+Antony Brown,CO-QA-POL-014,4,Poilcy for Control of Non Conformance ,Y
+Antony Brown,CO-QA-POL-020,8,Risk Management Policy,Y
+Antony Brown,CO-CA-POL-009,3,Policy for Verification and Validation,Y
+Antony Brown,CO-OPS-POL-011,2,WEEE Policy,Y
+Antony Brown,CO-CS-POL-012,4,Policy for Customer Feedback and Device Vigilance,Y
+Antony Brown,CO-QC-POL-018,5,Quality Control Policy,Y
+Antony Brown,CO-SUP-POL-017,3,"Policy for Customer Interface, Order Handling, Product Storage & Distribution",Y
+Antony Brown,CO-QA-POL-019,6,Quality Policy,N
+Antony Brown,CO-OPS-PTL-048,3,IO Release Procedure for Refurbished and Reworked Readers,Y
+Antony Brown,CO-QA-SOP-285,6,Hazard Analysis Procedure,Y
+Antony Brown,CO-QA-SOP-284,6,FMEA Procedure,Y
+Antony Brown,CO-QA-SOP-283,4,Product Risk Management ,Y
+Antony Brown,CO-SUP-SOP-068,14,Purchasing SOP,Y
+Antony Brown,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Antony Brown,CO-SUP-SOP-281,7,Cartridge Component Stock Control Procedure,Y
+Antony Brown,CO-SUP-SOP-072,13,"Instructions for receipt of incoming Non-Stock goods, assigning GRN numbers and labelling",Y
+Antony Brown,CO-SUP-SOP-280,8,Setting Expiry Dates for Incoming Materials,Y
+Antony Brown,CO-SUP-SOP-278,8,Pilot Line Electronic Stock Control,Y
+Antony Brown,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Antony Brown,CO-SUP-SOP-277,3,"Instructions for receipt of incoming Non-Stock goods, assigning GRN numbers and labelling",Y
+Antony Brown,CO-QC-SOP-286,3,Procedure for io Release,Y
+Antony Brown,CO-QA-SOP-043,7,Training Procedure,Y
+Antony Brown,CO-OPS-SOP-192,3,Verification Testing Process SOP,Y
+Antony Brown,CO-OPS-SOP-188,4,Process Validation,Y
+Antony Brown,CO-OPS-SOP-002,3,Planning for Process Validation,Y
+Antony Brown,CO-OPS-SOP-032,3,Validation of Automated Equipment and Quality System Software,Y
+Antony Brown,CO-OPS-SOP-034,3,Test Method Validation,Y
+Antony Brown,CO-IT-POL-022,0,Access Control Policy,Y
+Antony Brown,CO-IT-POL-023,0,Asset Management Policy,Y
+Antony Brown,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,Y
+Antony Brown,CO-IT-POL-025,0,Code of Conduct,Y
+Antony Brown,CO-IT-POL-026,0,Cryptography Policy,Y
+Antony Brown,CO-IT-POL-027,0,Human Resource Security Policy,Y
+Antony Brown,CO-IT-POL-028,0,Information Security Policy,Y
+Antony Brown,CO-IT-POL-029,0,Information Security Roles and Responsibilities,Y
+Antony Brown,CO-IT-POL-030,0,Physical Security Policy,Y
+Antony Brown,CO-IT-POL-031,0,Responsible Disclosure Policy,Y
+Antony Brown,CO-IT-POL-032,0,Risk Management ,Y
+Antony Brown,CO-IT-POL-033,0,Third Party Management,Y
+Henry Fatoyinbo,CO-H&S-COSHH-001,5,General Chemicals,N
+Henry Fatoyinbo,CO-H&S-COSHH-002,5,Oxidising Agents,N
+Henry Fatoyinbo,CO-H&S-COSHH-003,5,Flammable Materials,N
+Henry Fatoyinbo,CO-H&S-COSHH-004,5,Chlorinated Solvents,N
+Henry Fatoyinbo,CO-H&S-COSHH-005,5,Corrosive Bases,N
+Henry Fatoyinbo,CO-H&S-COSHH-006,5,Corrosive Acids,N
+Henry Fatoyinbo,CO-H&S-COSHH-007,5,COSHH assessment for general Hazard Group 2 organisms,N
+Henry Fatoyinbo,CO-H&S-COSHH-008,5,COSHH assessment for Hazard Group 2 respiratory pathogens,N
+Henry Fatoyinbo,CO-H&S-COSHH-009,4,COSHH Risk Assessment for Hazard Group 1 Pathogens,N
+Henry Fatoyinbo,CO-H&S-COSHH-010,6,COSHH Risk assessment for clinical samples,N
+Henry Fatoyinbo,CO-H&S-COSHH-012,5,Inactivated Micro-organisms,N
+Henry Fatoyinbo,CO-H&S-P-001,9,Health & Safety Policy,N
+Henry Fatoyinbo,CO-H&S-PRO-001,9,Health and Safety Fire Related Procedures,N
+Henry Fatoyinbo,CO-H&S-PRO-002,8,Chemical COSHH Guidance,N
+Henry Fatoyinbo,CO-H&S-PRO-003,5,Health and Safety Manual Handling,N
+Henry Fatoyinbo,CO-H&S-PRO-004,4,Health & Safety Incident and Near Miss Reporting Procedure,N
+Henry Fatoyinbo,CO-H&S-RA-001,3,Risk Assessment for binx Health office and non-laboratory area,N
+Henry Fatoyinbo,CO-H&S-RA-003,4,Risk Assessment for laboratory areas (excluding Microbiology and Pilot Line),N
+Henry Fatoyinbo,CO-H&S-RA-004,5,Risk Assessment for  io® reader / assay development tools,N
+Henry Fatoyinbo,CO-H&S-RA-005,3,Dangerous and Explosive Atmosphere Risk Assessment,N
+Henry Fatoyinbo,CO-H&S-RA-006,5,Risk Assessment for use of UV irradiation in the binx health Laboratories,N
+Henry Fatoyinbo,CO-H&S-RA-007,4,RA Pilot Line Lab Area,N
+Henry Fatoyinbo,CO-H&S-RA-008,3,Risk Assessment for binx Health Employees,N
+Henry Fatoyinbo,CO-H&S-RA-009,3,Risk Assessment for use of Chemicals / Microorganisms,N
+Henry Fatoyinbo,CO-DES-SOP-029,10,Design and Development Procedure,N
+Henry Fatoyinbo,CO-DES-SOP-243,6,CE Mark/Technical File Procedure,N
+Henry Fatoyinbo,CO-DES-SOP-041,6,Design Review Work Instruction,N
+Henry Fatoyinbo,CO-DES-SOP-146,OBSOLETE,Experimental Planning and Review,N
+Henry Fatoyinbo,CO-DES-SOP-004,4,Software Development Procedure,N
+Henry Fatoyinbo,CO-DES-SOP-042,3,Creation and maintenance of a Device Master Record,N
+Henry Fatoyinbo,CO-QA-SOP-140,18,Document Control & Control of Quality Records,N
+Henry Fatoyinbo,CO-QA-SOP-098,7,Document Matrix,N
+Henry Fatoyinbo,CO-QA-SOP-139,15,Change Management,N
+Henry Fatoyinbo,CO-OPS-SOP-035,3,Engineering Drawing Control,N
+Henry Fatoyinbo,CO-QA-SOP-026,5,Use of Sharepoint,N
+Henry Fatoyinbo,CO-OPS-SOP-036,2,Instrument Engineering Change Management,N
+Henry Fatoyinbo,CO-QA-SOP-028,8,Quality Records,N
+Henry Fatoyinbo,CO-LAB-SOP-155,8,Lab book write up,N
+Henry Fatoyinbo,CO-LAB-SOP-156,9,Lab rough notes,N
+Henry Fatoyinbo,CO-LAB-SOP-103,12,Environmental Control in the Laboratory,N
+Henry Fatoyinbo,CO-LAB-SOP-145,4,Storage and Safe handling of Biohazardous Materials,N
+Henry Fatoyinbo,CO-LAB-SOP-151,10,Management and Control of Critical and Controlled equipment,N
+Henry Fatoyinbo,CO-LAB-SOP-108,20,Laboratory cleaning SOP,N
+Henry Fatoyinbo,CO-QC-SOP-094,5,Procedure to control chemical and biological spillages,N
+Henry Fatoyinbo,CO-OPS-SOP-166,2,Pneumatics Test Rig Set Up and Calibration,N
+Henry Fatoyinbo,CO-OPS-SOP-187,3,Force Test Rig Set Up and Calibration,N
+Henry Fatoyinbo,CO-OPS-SOP-008,3,Thermal Test Rig Set Up and Calibration,N
+Henry Fatoyinbo,CO-OPS-SOP-174,2,Engineering Rework Procedure ,N
+Henry Fatoyinbo,CO-QA-SOP-003,17,Non Conformance Procedure,N
+Henry Fatoyinbo,CO-QA-SOP-004,12,Internal Audit,N
+Henry Fatoyinbo,CO-QA-SOP-076,8,Product Complaint Handling,N
+Henry Fatoyinbo,CO-QA-SOP-007,5,"Correction, Removal and Recall Procedure",N
+Henry Fatoyinbo,CO-QA-SOP-267,7,Post Market Surveillance,N
+Henry Fatoyinbo,CO-QA-SOP-099,5,Deviation procedure,N
+Henry Fatoyinbo,CO-QA-SOP-093,7,CAPA Procedure,N
+Henry Fatoyinbo,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Henry Fatoyinbo,CO-QA-SOP-096,5,Monitoring and Reporting of Quality Data,N
+Henry Fatoyinbo,CO-QA-SOP-014,2,Quality Planning Procedure,N
+Henry Fatoyinbo,CO-QA-SOP-016,1,Identification and Traceability,N
+Henry Fatoyinbo,CO-SUP-SOP-002,4,Intrument service and repair,N
+Henry Fatoyinbo,CO-QA-POL-021,9,Quality Manual,N
+Henry Fatoyinbo,CO-QA-POL-006,5,Policy for Document Control and Change Management,N
+Henry Fatoyinbo,CO-HR-POL-007,2,Training Policy,N
+Henry Fatoyinbo,CO-OPS-POL-008,4,Policy for Purchasing and Management of Suppliers,N
+Henry Fatoyinbo,CO-QA-POL-014,4,Poilcy for Control of Non Conformance ,N
+Henry Fatoyinbo,CO-QA-POL-020,8,Risk Management Policy,N
+Henry Fatoyinbo,CO-CA-POL-009,3,Policy for Verification and Validation,N
+Henry Fatoyinbo,CO-QA-POL-010,4,Policy for Control of Infrastructure Environment and Equipment,N
+Henry Fatoyinbo,CO-QA-POL-019,6,Quality Policy,N
+Henry Fatoyinbo,CO-OPS-PTL-048,3,IO Release Procedure for Refurbished and Reworked Readers,N
+Henry Fatoyinbo,CO-QA-SOP-285,6,Hazard Analysis Procedure,N
+Henry Fatoyinbo,CO-QA-SOP-284,6,FMEA Procedure,N
+Henry Fatoyinbo,CO-QA-SOP-283,4,Product Risk Management ,N
+Henry Fatoyinbo,CO-SUP-SOP-068,14,Purchasing SOP,N
+Henry Fatoyinbo,CO-SUP-SOP-069,7,Supplier Evaluation SOP,N
+Henry Fatoyinbo,CO-QC-SOP-286,3,Procedure for io Release,N
+Henry Fatoyinbo,CO-QA-SOP-043,7,Training Procedure,N
+Henry Fatoyinbo,CO-IT-POL-022,0,Access Control Policy,N
+Henry Fatoyinbo,CO-IT-POL-023,0,Asset Management Policy,N
+Henry Fatoyinbo,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Henry Fatoyinbo,CO-IT-POL-025,0,Code of Conduct,N
+Henry Fatoyinbo,CO-IT-POL-026,0,Cryptography Policy,N
+Henry Fatoyinbo,CO-IT-POL-027,0,Human Resource Security Policy,N
+Henry Fatoyinbo,CO-IT-POL-028,0,Information Security Policy,N
+Henry Fatoyinbo,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Henry Fatoyinbo,CO-IT-POL-030,0,Physical Security Policy,N
+Henry Fatoyinbo,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Henry Fatoyinbo,CO-IT-POL-032,0,Risk Management ,N
+Henry Fatoyinbo,CO-IT-POL-033,0,Third Party Management,N
+Ian Moore,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Ian Moore,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Ian Moore,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Ian Moore,CO-QA-SOP-237,0,QT9 - Periodic Review and Making Documents Obsolete,Y
+Ian Moore,CO-H&S-P-001,9,Health & Safety Policy,Y
+Ian Moore,CO-H&S-P-002,6,PAT Policy,Y
+Ian Moore,CO-H&S-PRO-001,9,Health and Safety Fire Related Procedures,Y
+Ian Moore,CO-H&S-PRO-002,8,Chemical COSHH Guidance,Y
+Ian Moore,CO-H&S-PRO-003,5,Health and Safety Manual Handling,Y
+Ian Moore,CO-H&S-PRO-004,4,Health & Safety Incident and Near Miss Reporting Procedure,Y
+Ian Moore,CO-H&S-RA-001,3,Risk Assessment for binx Health office and non-laboratory area,Y
+Ian Moore,CO-H&S-RA-003,4,Risk Assessment for laboratory areas (excluding Microbiology and Pilot Line),Y
+Ian Moore,CO-H&S-RA-004,5,Risk Assessment for  io® reader / assay development tools,N
+Ian Moore,CO-H&S-RA-005,3,Risk Assessment for binx Health Employees,Y
+Ian Moore,CO-H&S-RA-006,3,Risk Assessment for use of Chemicals / Microorganisms,Y
+Ian Moore,CO-DES-SOP-004,4,Software Development Procedure,Y
+Ian Moore,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Ian Moore,CO-QA-SOP-098,7,Document Matrix,N
+Ian Moore,CO-QA-SOP-139,15,Change Management,Y
+Ian Moore,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Ian Moore,CO-OPS-SOP-036,2,Instrument Engineering Change Management,Y
+Ian Moore,CO-QA-SOP-028,8,Quality Records,Y
+Ian Moore,CO-LAB-SOP-155,8,Lab book write up,Y
+Ian Moore,CO-LAB-SOP-156,9,Lab rough notes,Y
+Ian Moore,CO-LAB-SOP-103,12,Environmental Control in the Laboratory,Y
+Ian Moore,CO-LAB-SOP-145,4,Storage and Safe handling of Biohazardous Materials,Y
+Ian Moore,CO-LAB-SOP-151,10,Management and Control of Critical and Controlled equipment,Y
+Ian Moore,CO-LAB-SOP-108,20,Laboratory cleaning SOP,Y
+Ian Moore,CO-QC-SOP-094,5,Procedure to control chemical and biological spillages,Y
+Ian Moore,CO-LAB-SOP-149,5,Introducing New Laboratory Equipment,N
+Ian Moore,CO-LAB-SOP-138,4,Use of temperature and humidity loggers,Y
+Ian Moore,CO-LAB-SOP-095,5,External and repair Cleaning for io readers used at Atlas,Y
+Ian Moore,CO-LAB-SOP-163,8,Running End to End CT cartridges on io Readers,Y
+Ian Moore,CO-OPS-SOP-165,1,Windows Software Up-date,Y
+Ian Moore,CO-OPS-SOP-007,2,Firmware Up-date,Y
+Ian Moore,CO-OPS-SOP-166,2,Pneumatics Test Rig Set Up and Calibration,Y
+Ian Moore,CO-OPS-SOP-187,3,Force Test Rig Set Up and Calibration,Y
+Ian Moore,CO-OPS-SOP-008,3,Thermal Test Rig Set Up and Calibration,Y
+Ian Moore,CO-LAB-SOP-167,5,Attaching Electrode/Blister Adhesive and Blister Pack,Y
+Ian Moore,CO-OPS-SOP-009,2,Reader Peltier Refit procedure,Y
+Ian Moore,CO-LAB-SOP-170,3,Rapid PCR Rig Work Instructions,Y
+Ian Moore,CO-OPS-SOP-172,3,Tool Changes of the Rhychiger Heat Sealer ,Y
+Ian Moore,CO-OPS-SOP-174,2,Engineering Rework Procedure ,Y
+Ian Moore,CO-LAB-SOP-178,1,Signal Analyser,Y
+Ian Moore,CO-LAB-SOP-184,2,Pilot Line Blister Filling and Sealing Procedure,Y
+Ian Moore,CO-QC-SOP-185,1,Use of the SB3 Rotator,Y
+Ian Moore,CO-CA-SOP-081,2,Collection of Human samples for QA purposes,Y
+Ian Moore,CO-QA-SOP-003,17,Non Conformance Procedure,Y
+Ian Moore,CO-QA-SOP-011,6,Supplier Corrective Action Response Procedure,Y
+Ian Moore,CO-QA-SOP-093,7,CAPA Procedure,Y
+Ian Moore,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Ian Moore,CO-QA-SOP-016,1,Identification and Traceability,Y
+Ian Moore,CO-SUP-SOP-006,2,Equipment and fulfilment and field visits,Y
+Ian Moore,CO-QA-POL-021,9,Quality Manual,Y
+Ian Moore,CO-QA-POL-006,5,Policy for Document Control and Change Management,Y
+Ian Moore,CO-HR-POL-007,2,Training Policy,Y
+Ian Moore,CO-OPS-POL-008,4,Policy for Purchasing and Management of Suppliers,Y
+Ian Moore,CO-QA-POL-020,8,Risk Management Policy,Y
+Ian Moore,CO-CA-POL-009,3,Policy for Verification and Validation,Y
+Ian Moore,CO-QA-POL-010,4,Policy for Control of Infrastructure Environment and Equipment,Y
+Ian Moore,CO-QA-POL-019,6,Quality Policy,N
+Ian Moore,CO-SUP-SOP-068,14,Purchasing SOP,N
+Ian Moore,CO-SUP-SOP-281,7,Cartridge Component Stock Control Procedure,Y
+Ian Moore,CO-SUP-SOP-072,13,"Instructions for receipt of incoming Non-Stock goods, assigning GRN numbers and labelling",N
+Ian Moore,CO-QA-SOP-043,7,Training Procedure,Y
+Ian Moore,CO-OPS-SOP-192,3,Verification Testing Process SOP,Y
+Ian Moore,CO-OPS-SOP-188,4,Process Validation,Y
+Ian Moore,CO-OPS-SOP-032,3,Validation of Automated Equipment and Quality System Software,Y
+Ian Moore,CO-IT-POL-022,0,Access Control Policy,N
+Ian Moore,CO-IT-POL-023,0,Asset Management Policy,N
+Ian Moore,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Ian Moore,CO-IT-POL-025,0,Code of Conduct,N
+Ian Moore,CO-IT-POL-026,0,Cryptography Policy,N
+Ian Moore,CO-IT-POL-027,0,Human Resource Security Policy,N
+Ian Moore,CO-IT-POL-028,0,Information Security Policy,N
+Ian Moore,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Ian Moore,CO-IT-POL-030,0,Physical Security Policy,N
+Ian Moore,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Ian Moore,CO-IT-POL-032,0,Risk Management ,N
+Ian Moore,CO-IT-POL-033,0,Third Party Management,N
+Jawaad Bhatti,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Jawaad Bhatti,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,N
+Jawaad Bhatti,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,N
+Jawaad Bhatti,CO-QA-SOP-237,0,QT9 - Periodic Review and Making Documents Obsolete,Y
+Jawaad Bhatti,CO-H&S-P-001,9,Health & Safety Policy,N
+Jawaad Bhatti,CO-H&S-P-003,1,Stress Policy ,Y
+Jawaad Bhatti,CO-H&S-PRO-001,9,Health and Safety Fire Related Procedures,Y
+Jawaad Bhatti,CO-H&S-PRO-002,8,Chemical COSHH Guidance,Y
+Jawaad Bhatti,CO-H&S-PRO-003,5,Health and Safety Manual Handling,N
+Jawaad Bhatti,CO-H&S-PRO-004,4,Health & Safety Incident and Near Miss Reporting Procedure,Y
+Jawaad Bhatti,CO-DES-SOP-029,10,Design and Development Procedure,Y
+Jawaad Bhatti,CO-DES-SOP-041,6,Design Review Work Instruction,Y
+Jawaad Bhatti,CO-QA-SOP-140,18,Document Control & Control of Quality Records,N
+Jawaad Bhatti,CO-QA-SOP-098,7,Document Matrix,N
+Jawaad Bhatti,CO-QA-SOP-139,15,Change Management,N
+Jawaad Bhatti,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Jawaad Bhatti,CO-QA-SOP-028,8,Quality Records,Y
+Jawaad Bhatti,CO-QA-SOP-005,5,Document and Records Archiving,Y
+Jawaad Bhatti,CO-SUP-SOP-048,3,Raise PO Non Stock and Services,Y
+Jawaad Bhatti,CO-SUP-SOP-049,4,Receive non sock PO ,Y
+Jawaad Bhatti,CO-LAB-SOP-103,12,Environmental Control in the Laboratory,Y
+Jawaad Bhatti,CO-QA-SOP-003,17,Non Conformance Procedure,N
+Jawaad Bhatti,CO-QA-SOP-076,8,Product Complaint Handling,N
+Jawaad Bhatti,CO-QA-SOP-099,5,Deviation procedure,N
+Jawaad Bhatti,CO-QA-SOP-093,7,CAPA Procedure,N
+Jawaad Bhatti,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Jawaad Bhatti,CO-QA-SOP-016,1,Identification and Traceability,Y
+Jawaad Bhatti,CO-QA-POL-021,9,Quality Manual,N
+Jawaad Bhatti,CO-HR-POL-007,2,Training Policy,Y
+Jawaad Bhatti,CO-SUP-SOP-068,14,Purchasing SOP,N
+Jawaad Bhatti,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Jawaad Bhatti,CO-QA-SOP-043,7,Training Procedure,Y
+Jawaad Bhatti,CO-OPS-SOP-192,3,Verification Testing Process SOP,Y
+Jawaad Bhatti,CO-IT-POL-022,0,Access Control Policy,N
+Jawaad Bhatti,CO-IT-POL-023,0,Asset Management Policy,N
+Jawaad Bhatti,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Jawaad Bhatti,CO-IT-POL-025,0,Code of Conduct,N
+Jawaad Bhatti,CO-IT-POL-026,0,Cryptography Policy,N
+Jawaad Bhatti,CO-IT-POL-027,0,Human Resource Security Policy,N
+Jawaad Bhatti,CO-IT-POL-028,0,Information Security Policy,N
+Jawaad Bhatti,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Jawaad Bhatti,CO-IT-POL-030,0,Physical Security Policy,N
+Jawaad Bhatti,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Jawaad Bhatti,CO-IT-POL-032,0,Risk Management ,N
+Jawaad Bhatti,CO-IT-POL-033,0,Third Party Management,N
+Sean Barnes,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Sean Barnes,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Sean Barnes,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Sean Barnes,CO-QA-SOP-237,0,QT9 - Periodic Review and Making Documents Obsolete,Y
+Sean Barnes,CO-H&S-P-001,9,Health & Safety Policy,Y
+Sean Barnes,CO-DES-SOP-029,10,Design and Development Procedure,Y
+Sean Barnes,CO-DES-SOP-004,4,Software Development Procedure,Y
+Sean Barnes,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Sean Barnes,CO-QA-SOP-098,7,Document Matrix,Y
+Sean Barnes,CO-QA-SOP-139,15,Change Management,N
+Sean Barnes,CO-IT-SOP-044,4,IT Management Back Up and Support,Y
+Sean Barnes,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Sean Barnes,CO-QA-SOP-028,8,Quality Records,Y
+Sean Barnes,CO-QA-SOP-003,17,Non Conformance Procedure,Y
+Sean Barnes,CO-QA-SOP-076,8,Product Complaint Handling,N
+Sean Barnes,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,N
+Sean Barnes,CO-QA-SOP-093,7,CAPA Procedure,N
+Sean Barnes,CO-QA-SOP-012,8,Annual Quality Objectives ,Y
+Sean Barnes,CO-QA-POL-021,9,Quality Manual,N
+Sean Barnes,CO-HR-POL-007,2,Training Policy,Y
+Sean Barnes,CO-QA-POL-014,4,Poilcy for Control of Non Conformance ,Y
+Sean Barnes,CO-QA-SOP-285,6,Hazard Analysis Procedure,Y
+Sean Barnes,CO-QA-SOP-284,6,FMEA Procedure,Y
+Sean Barnes,CO-QA-SOP-283,4,Product Risk Management ,Y
+Sean Barnes,CO-SUP-SOP-068,14,Purchasing SOP,Y
+Sean Barnes,CO-SUP-SOP-069,7,Supplier Evaluation SOP,N
+Sean Barnes,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Sean Barnes,CO-QA-SOP-043,7,Training Procedure,Y
+Sean Barnes,CO-IT-POL-022,0,Access Control Policy,Y
+Sean Barnes,CO-IT-POL-023,0,Asset Management Policy,N
+Sean Barnes,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,N
+Sean Barnes,CO-IT-POL-025,0,Code of Conduct,N
+Sean Barnes,CO-IT-POL-026,0,Cryptography Policy,N
+Sean Barnes,CO-IT-POL-027,0,Human Resource Security Policy,N
+Sean Barnes,CO-IT-POL-028,0,Information Security Policy,N
+Sean Barnes,CO-IT-POL-029,0,Information Security Roles and Responsibilities,N
+Sean Barnes,CO-IT-POL-030,0,Physical Security Policy,N
+Sean Barnes,CO-IT-POL-031,0,Responsible Disclosure Policy,N
+Sean Barnes,CO-IT-POL-032,0,Risk Management ,N
+Sean Barnes,CO-IT-POL-033,0,Third Party Management,N
+Alan Alpert,CO-QA-POL-015,0,Policy for the use of Electronic Signatures within binx health,Y
+Alan Alpert,CO-QA-SOP-030,2,Accessing and Finding Documents in QT9,Y
+Alan Alpert,CO-QA-SOP-031,2,Revising and Introducing Documents in QT9,Y
+Alan Alpert,CO-QA-SOP-237,0,QT9 - Periodic Review and Making Documents Obsolete,Y
+Alan Alpert,CO-QA-SOP-274,0,Applicable Standards Management Procedure,Y
+Alan Alpert,CO-H&S-P-001,9,Health & Safety Policy,Y
+Alan Alpert,CO-DES-SOP-029,10,Design and Development Procedure,Y
+Alan Alpert,CO-DES-SOP-243,6,CE Mark/Technical File Procedure,Y
+Alan Alpert,CO-DES-SOP-004,4,Software Development Procedure,Y
+Alan Alpert,CO-QA-SOP-140,18,Document Control & Control of Quality Records,Y
+Alan Alpert,CO-QA-SOP-098,7,Document Matrix,Y
+Alan Alpert,CO-QA-SOP-139,15,Change Management,Y
+Alan Alpert,CO-IT-SOP-044,4,IT Management Back Up and Support,Y
+Alan Alpert,CO-QA-SOP-026,5,Use of Sharepoint,Y
+Alan Alpert,CO-QA-SOP-028,8,Quality Records,Y
+Alan Alpert,CO-QA-SOP-003,17,Non Conformance Procedure,Y
+Alan Alpert,CO-QA-SOP-077,10,Supplier Audit Procedure,Y
+Alan Alpert,CO-QA-SOP-076,8,Product Complaint Handling,Y
+Alan Alpert,CO-QA-SOP-326,7,Vigilance and Medical Reporting Procedure,Y
+Alan Alpert,CO-QA-SOP-345,4,Tools for Root Cause Analysis,Y
+Alan Alpert,CO-QA-SOP-267,7,Post Market Surveillance,N
+Alan Alpert,CO-QA-SOP-011,6,Supplier Corrective Action Response Procedure,Y
+Alan Alpert,CO-QA-SOP-099,5,Deviation procedure,Y
+Alan Alpert,CO-QA-SOP-093,7,CAPA Procedure,Y
+Alan Alpert,CO-QA-SOP-012,8,Annual Quality Objectives ,N
+Alan Alpert,CO-QA-SOP-096,5,Monitoring and Reporting of Quality Data,Y
+Alan Alpert,CO-QA-SOP-014,2,Quality Planning Procedure,Y
+Alan Alpert,CO-QA-POL-021,9,Quality Manual,Y
+Alan Alpert,CO-QA-POL-006,5,Policy for Document Control and Change Management,Y
+Alan Alpert,CO-HR-POL-007,2,Training Policy,Y
+Alan Alpert,CO-QA-POL-014,4,Poilcy for Control of Non Conformance ,Y
+Alan Alpert,CO-CA-POL-009,3,Policy for Verification and Validation,Y
+Alan Alpert,CO-CS-POL-012,4,Policy for Customer Feedback and Device Vigilance,Y
+Alan Alpert,CO-SUP-POL-017,3,"Policy for Customer Interface, Order Handling, Product Storage & Distribution",Y
+Alan Alpert,CO-QA-POL-019,6,Quality Policy,N
+Alan Alpert,CO-QA-SOP-285,6,Hazard Analysis Procedure,Y
+Alan Alpert,CO-QA-SOP-284,6,FMEA Procedure,Y
+Alan Alpert,CO-QA-SOP-283,4,Product Risk Management ,Y
+Alan Alpert,CO-SUP-SOP-068,14,Purchasing SOP,Y
+Alan Alpert,CO-SUP-SOP-069,7,Supplier Evaluation SOP,Y
+Alan Alpert,CO-SUP-SOP-070,5,"Supplier Risk Assessment, Approval and Monitoring Procedure",Y
+Alan Alpert,CO-QA-SOP-043,7,Training Procedure,Y
+Alan Alpert,CO-OPS-SOP-192,3,Verification Testing Process SOP,Y
+Alan Alpert,CO-IT-POL-022,0,Access Control Policy,Y
+Alan Alpert,CO-IT-POL-023,0,Asset Management Policy,Y
+Alan Alpert,CO-IT-POL-024,0,Business Continuity and Disaster Recovery,Y
+Alan Alpert,CO-IT-POL-025,0,Code of Conduct,Y
+Alan Alpert,CO-IT-POL-026,0,Cryptography Policy,Y
+Alan Alpert,CO-IT-POL-027,0,Human Resource Security Policy,Y
+Alan Alpert,CO-IT-POL-028,0,Information Security Policy,Y
+Alan Alpert,CO-IT-POL-029,0,Information Security Roles and Responsibilities,Y
+Alan Alpert,CO-IT-POL-030,0,Physical Security Policy,Y
+Alan Alpert,CO-IT-POL-031,0,Responsible Disclosure Policy,Y
+Alan Alpert,CO-IT-POL-032,0,Risk Management ,Y
+Alan Alpert,CO-IT-POL-033,0,Third Party Management,Y

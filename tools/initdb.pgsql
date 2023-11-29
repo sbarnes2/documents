@@ -2198,7 +2198,7 @@ CREATE TABLE IF NOT EXISTS document_list(
 
 insert into document_list(documentqtid,documenttitle,documenttype,risklevel)
 select distinct 
-documentnumber as documentqtid,
+d.documentcode as documentqtid,
 documentname as documenttitle,
 dt.id as documenttype,
 case
