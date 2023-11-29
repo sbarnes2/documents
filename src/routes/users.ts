@@ -204,7 +204,7 @@ where u.id = 21 */
         }
     });
 
-    app.get('/api/users/getmanagers',async (req:express.Request,res)=>{
+    app.get('/api/users/getmanagers',async (req:express.Request,res: { json: (arg0: any[]) => any; })=>{
         const result = await db.any(`select distinct u.* from users u inner join orgchart o on o.manager_id = u.id order by u.surname;`);
         return res.json(result);
     });
@@ -235,6 +235,15 @@ where u.id = 21 */
         const sql:string = `select * from job_titles where team_id =${req.params.teamid};`;
         const roles = await db.any(sql,);
         return res.json(roles);
+    });
+
+
+    // teams
+
+    app.get('/api/team/getname/:teamid',async(req:any,res:any) =>{
+        console.log(JSON.stringify(req.params));
+        const teamname = await db.one(`select name from teams where id = ${req.params.teamid};`);
+        return res.json(teamname);
     });
 
 
