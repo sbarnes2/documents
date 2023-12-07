@@ -80,8 +80,9 @@ export const register = (app: express.Application) =>{
     }); */
 
     // `SELECT u.userid,u.documentid as userStateid,d.id as doc_id,d.documentnumber,d.documentname,u.usercurrentrevision,u.rev,d.risklevel FROM public.user_training_needed u inner join documents d on d.documentnumber = u.documentqtid where u.userid ${userid};`
+
     app.get('/api/documents/getdocumentsbyuserid/:userid',async(req:any,res)=>{
-        const query:string = `SELECT u.userid,u.documentid as userStateid,d.doc_id as doc_id,d.documentnumber,d.documentname,u.usercurrentrevision,u.rev,d.risklevel FROM public.user_training_needed u inner join documents d on d.documentnumber = u.documentqtid where u.userid = ${req.params.userid};`
+        const query:string = `SELECT u.userid,u.documentid as userStateid,d.doc_id as doc_id,d.documentcode,d.documentname,u.usercurrentrevision,u.rev,d.risklevel FROM public.user_training_needed u inner join documents d on CAST(d.doc_id as INTEGER) = u.documentid where u.userid = ${req.params.userid};`
         const documentsbyuserid = await db.any(query,);
         return(res.json(documentsbyuserid));
     });

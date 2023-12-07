@@ -32,7 +32,7 @@ export const register = (app: express.Application) =>{
 
     app.get('/api/users/all',async(req:any,res)=>{
         try{
-            let sql:string  = 'Select t.name,tm.team_id as TEAM_id,u.id as userid,u.username,jt.name,tm.user_is_manager as manager from users u ';
+            let sql:string  = 'Select distinct t.name,tm.team_id as TEAM_id,u.id as userid,u.username,jt.name,tm.user_is_manager as manager from users u ';
             sql = sql + 'inner join team_members tm on tm.user_id = u.id ';
             sql = sql + 'left join teams t on t.id = tm.team_id ';
             sql = sql + 'left join user_jobtitle uj ON uj.user_id = u.id ';
@@ -80,7 +80,7 @@ order by tm.user_is_manager DESC ,u.id
 */
 
 app.get('/api/users/getteammembers/:teamid',async (req:any,res)=>{
-    let sql = 'Select t.name as teamname,t.id as team_id,u.id as userid,u.username,jt.name as jobtitle,tm.user_is_manager as manager from users u ';
+    let sql = 'Select distinct t.name as teamname,t.id as team_id,u.id as userid,u.username,jt.name as jobtitle,tm.user_is_manager as manager from users u ';
     sql = sql + 'inner join team_members tm on tm.user_id = u.id ';
     sql = sql + 'inner join teams t on t.id = tm.team_id ';
     sql = sql + 'left join user_jobtitle uj ON uj.user_id = u.id ';
@@ -226,13 +226,13 @@ where u.id = 21 */
     // get
 
     app.get('/api/team/roles/all', async(req:any,res) =>{
-        const sql:string = `select * from job_titles;`;
+        const sql:string = `select distinct * from job_titles;`;
         const roles = await db.any(sql,);
         return res.json(roles);
     });
 
     app.get('/api/team/roles/:teamid', async(req:any,res) =>{
-        const sql:string = `select * from job_titles where team_id =${req.params.teamid};`;
+        const sql:string = `select distinct * from job_titles where team_id =${req.params.teamid};`;
         const roles = await db.any(sql,);
         return res.json(roles);
     });
@@ -242,7 +242,7 @@ where u.id = 21 */
 
     app.get('/api/team/getname/:teamid',async(req:any,res:any) =>{
         console.log(JSON.stringify(req.params));
-        const teamname = await db.one(`select name from teams where id = ${req.params.teamid};`);
+        const teamname = await db.one(`select distinct name from teams where id = ${req.params.teamid};`);
         return res.json(teamname);
     });
 
@@ -252,18 +252,13 @@ where u.id = 21 */
 
     // Generic CREATE
 
-/*     app.post('',async (req:TypedRequestBody<{}>,res)=>{
-        try{
-            const {} = req.body;
-            const add = new ParameterizedQuery({
-                text:'',
-                values:[]});
-            const id = await db.one(add);
+    // TEAMS
 
-        } catch(err){
-            res.json(err).status(400);
-        }
-    }); */
+    app.get('/api/teams/all',async(req:any,res) => {
+            const sql:string = 'select distinct id,name from teams';
+            const teams = await db.any(sql);
+            return res.json(teams);
+    });
 
 
     // USERS - CREATE
@@ -275,6 +270,14 @@ where u.id = 21 */
                     text: 'INSERT INTO users(username,email_address,firstname,surname) values ($1,$2,$3,$4) returning Id;',
                     values: [req.body.user_name,req.body.email_address,req.body.firstname,req.body.surname]});
                 const id = await db.one(addUser);
+
+                // add to team_members - no team
+                const membership = {user_id:id,user_is_manager:false,team_id:-1};
+                const addUsertoTeam = new ParameterizedQuery({
+                    text: 'INSERT INTO team_members(user_id,user_is_manager,team_id) values ($1,$2,$3,$4) returning Id;',
+                    values: [membership.user_id,membership.user_is_manager,membership.team_id]});
+                await db.one(addUsertoTeam);
+
                 return res.json({id});
         } catch(err){
             res.json(err);
@@ -330,18 +333,16 @@ where u.id = 21 */
 
     // USER _ TEAM ADD USER TO TEAM
 
-    app.post('/api/users/addusertoteam',async (req:TypedRequestBody<{user_id:number,team_id:number,manager:boolean}>,res)=>{
-        try{
-            const {user_id,team_id,manager} = req.body;
-            const add = new ParameterizedQuery({
-                text:'INSERT INTO TEAM_MEMBERS (user_id,user_is_manager,team_id) values ($1,$2,$3) returning id;',
-                values:[req.body.user_id,req.body.manager,req.body.team_id]});
-            const id = await db.one(add);
-
-        } catch(err){
-            res.json(err).status(400);
-        }
+    // this is an update call to team_members as it is already populated.
+    app.post('/app/users/addusertoteam',async(req:TypedRequestBody<{team_id:number,user_id:number}>,res)=>{
+        const{team_id,user_id}= req.body;
+        const update = new ParameterizedQuery({
+            text:'UPDATE team_members set team_id = $1 where user_id = $2',
+            values:[req.body.team_id,req.body.user_id]
+        });
+        await db.one(update);
     });
+
 
     app.post('/api/users/updateuserdocument',async (req:TypedRequestBody<{userid:string,documentid:string,newrevision:string}>,res) => {
         // fill in query here + add all required fields to the body, new rev number, documentid (not qt9 id)
